@@ -12,3 +12,7 @@ github_username:  jonasjberg
 
 # Build settings
 markdown: kramdown
+
+# Styling
+sass:
+    sass_dir: _sass
