@@ -2,7 +2,7 @@
 layout: post
 title:  "Initial commit."
 date:   2016-11-06 17:00:45
-categories: development jekyll meta
+tags:   [development, jekyll, meta, devops]
 ---
 
 This post marks the start of this here blog, created as part of an assignment
