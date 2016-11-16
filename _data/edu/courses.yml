@@ -36,3 +36,33 @@
   desc: 'Programming and problem solving using Java.'
   date: '2015-08-21'
   hidden: 0
+
+- code: 'DVG001'
+  name: 'Introduction to Linux and Small Networks'
+  school: 'Högskolan i Gävle'
+  topic: 'Computer Science'
+  url: ''
+  desc: 'Network administration; setup, configuration and maintenance of a
+         Linux server virtual machine. The server was online and allowed for
+         remote SSH connections by the course administration. Focus on security.'
+  date: '2016-06-15'
+  hidden: 0
+
+- code: 'EE466A'
+  name: 'Electric Circuits'
+  school: 'Högskolan i Gävle'
+  topic: 'Electronics'
+  url: ''
+  desc: 'Linear network analysis. Circuit analysis, theory and design.'
+  date: '2016-01-18'
+  hidden: 0
+
+- code: 'ETE311'
+  name: 'Computer Security'
+  school: 'Linköpings Universitet'
+  topic: 'Electrical Engineering'
+  url: ''
+  desc: 'Security analysis, identification and classification of threats and
+         vulnerabilities. Cryptography, network security, access control.'
+  date: '2016-06-12'
+  hidden: 0
