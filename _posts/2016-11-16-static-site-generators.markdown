@@ -152,6 +152,8 @@ new content can be added by simply creating text files in a directory.
 Contrast this to manually updating dozens of `html`-files and keeping
 track of a possibly complex directory hierarchy to be mirrored on the
 server.
+This used to be done with a _Content Management System_. [Interesting
+read][cms-to-jekyll] about moving from a _CMS_ to using `jekyll`.
 
 ### Closing thoughts
 This paired with your favourite version control system makes for a very
@@ -176,3 +178,4 @@ is a very popular blogging platform and I have no difficulty seeing why.
 [jekyll]: https://jekyllrb.com/
 [jekyll-github]: https://github.com/jekyll/jekyll
 [github-pages]: https://pages.github.com/
+[cms-to-jekyll]: https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/
