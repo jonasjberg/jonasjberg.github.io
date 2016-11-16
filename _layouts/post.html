@@ -5,20 +5,24 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">
+    <span class="post-date">
         {{ page.date | date: "%F %A" }}
-        {% if page.author %} • {{ page.author }}{% endif %}
-        {% if page.meta %} • {{ page.meta }}{% endif %}
-    </p>
-    <h3 class="post-tags">Tags:</h3>
-    <p class="entry-tags">
+    </span>
+
+    <h1 class="post-title">{{ page.title }}</h1>
+
+    <span class="post-meta">
+        {% if page.author %}{{ page.author }}{% endif %}
+    </span>
+
+    <h3 class="post-tags">Tags</h3>
+    <span class="entry-tags">
         {% for tag in page.tags %}
             <a href="{{ site.url }}/tags.html#{{ tag | cgi_escape }}"
                title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>
             {% unless forloop.last %} &bull; {% endunless %}
         {% endfor %}
-    </p>
+    </span>
   </header>
 
   <article class="post-content">
