@@ -1,0 +1,54 @@
+- name: 'Consulting'
+  desc: 'Freelance and consulting in primarily electronics design, construction
+         and repair. Complete products from specifications/ideas; through
+         design, prototyping and construction; including simulation,
+         PCB-layouts, chassis CAD design, etc.'
+  role: 'Electronics engineer'
+  tags:
+    - electronics
+    - hardware
+    - repair
+    - development
+    - modification
+  date:
+    start: 2010
+    end: 2016
+  hidden: 0
+
+- name: 'KS Musik'
+  desc: 'Music store sales. Also repair and servicing of musical instruments
+         and equipment.'
+  role: 'Shop salesman'
+  tags:
+    - electronics
+    - music
+    - hardware
+    - repair
+    - sales
+  date:
+    start: 2008
+    end: 2009
+  hidden: 0
+
+- name: 'Medborgarskolan'
+  desc: 'Guitar teacher for kids, teens and adults. Electric and acoustic guitar.'
+  role: 'Music teacher'
+  tags:
+    - music
+    - teaching
+  date:
+    start: 2007
+    end: 2008
+  hidden: 0
+
+- name: 'Syntronic'
+  desc: 'Assembly and various tasks related to electronics production.'
+  role: 'Assembler'
+  tags:
+    - electronics
+    - hardware
+  date:
+    start: 2004
+    end: 2006
+  hidden: 1
+
