@@ -11,7 +11,9 @@ email: jomeganas@gmail.com
 twitter_username: jonasjberg
 github_username:  jonasjberg
 
-markdown: kramdown
+# markdown: kramdown
+# kramdown:
+#   input: GFM
 
 sass:
     sass_dir: _sass
