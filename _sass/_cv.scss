@@ -1,3 +1,62 @@
-._cv_coursedate {
+._cv_course {
 
+    margin-bottom: 1em;
+
+    ._cv_coursedate {
+        /*display: inline-block;*/
+        float: right;
+    }
+
+    ._cv_school {
+        display: inline;
+        float: left;
+    }
+
+    ._cv_description {
+
+    }
+
+    h4 {
+        padding: 0;
+        margin: 0;
+        border-bottom-style: solid;
+        border-bottom-width: 0.025em;
+        border-bottom-color: $grey-color;
+    }
+    h5 {
+        visibility: hidden;
+    }
 }
+
+._cv_job {
+
+    margin-bottom: 1em;
+
+    ._cv_job-date {
+        /*display: inline-block;*/
+        float: right;
+    }
+
+    ._cv_job-role {
+        display: inline;
+        float: left;
+    }
+
+    ._cv_description {
+
+    }
+
+    h4 {
+        /*display: inline-block;
+        max-width: 50%;*/
+        padding: 0;
+        margin: 0;
+        border-bottom-style: solid;
+        border-bottom-width: 0.025em;
+        border-bottom-color: $grey-color;
+    }
+    h5 {
+        visibility: hidden;
+    }
+}
+

@@ -1,17 +1,17 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: CV
+permalink: /cv/
 ---
 
-<div class="about">
+<div class="cv">
 
-    <h1 class="page-heading">CV</h1>
+    <!--<h1 class="page-heading">Curriculum vitae</h1>-->
     <h2>Education</h2>
     <h3>Current</h3>
     <p>TODO: Describe current education ..</p>
 
-    <h3>Completed courses</h3>
+    <h3>Courses</h3>
     <!--<ul>-->
         <!--{% for course in site.data.courses %}-->
             <!--<l>[{{ course.code }}] {{ course.name }}</l>-->
@@ -19,22 +19,27 @@ permalink: /about/
     <!--</ul>-->
 
     {% for course in site.data.courses %}
-        <h4>{{ course.code }} {{ course.name }}</h4>
-        <span class="_cv_school">{{ course.school }}</span>
-        <span class="_cv_coursedate">{{ course.date }}</span>
-        <h5>Description</h5>
-        {{ course.desc }}
+        <div class="_cv_course">
+            <h4>{{ course.code }} {{ course.name }}</h4>
+            <span class="_cv_school">{{ course.school }}</span>
+            <span class="_cv_coursedate">{{ course.date }}</span>
+            <h5>Description</h5>
+            <p class="_cv_description">{{ course.desc }}</p>
+
+        </div>
     {% endfor %}
 
 
     <h2>Work experience</h2>
 
     {% for job in site.data.jobs %}
-        <h4>{{ job.name }}</h4>
-        <span class="_cv_job-role">{{ job.desc }}</span>
-        <span class="_cv_job-date">{{ job.date.start }} &mdash; {{ job.date.end }}</span>
-        <h5>Description</h5>
-        {{ job.desc }}
+        <div class="_cv_job">
+            <h4>{{ job.name }}</h4>
+            <span class="_cv_job-role">{{ job.role }}</span>
+            <span class="_cv_job-date">{{ job.date.start }} &mdash; {{ job.date.end }}</span>
+            <h5>Description</h5>
+            <p class="_cv_description">{{ job.desc }}</p>
+        </div>
     {% endfor %}
 
 
