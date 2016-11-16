@@ -165,7 +165,7 @@
     font-size: 20px;
 }
 
-.post-list {
+.page-list {
     margin-left: 0;
     list-style: none;
 
@@ -174,24 +174,21 @@
     }
 }
 
-.post-meta {
+.page-meta {
     font-size: $small-font-size;
     color: $grey-color;
 }
 
-.post-link {
-    display: block;
+.page-link {
+    display: inline-block;
     font-size: 24px;
 }
 
-/**
- * Posts
- */
-.post-header {
+.page-header {
     margin-bottom: $spacing-unit;
 }
 
-.post-title {
+.page-title {
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
@@ -201,7 +198,7 @@
     }
 }
 
-.post-content {
+.page-content {
     margin-bottom: $spacing-unit;
 
     h2 {
