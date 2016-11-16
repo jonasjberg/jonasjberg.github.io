@@ -1,0 +1,38 @@
+- code: 'IE720A'
+  name: 'Project methodology'
+  school: 'Högskolan i Gävle'
+  topic: 'Industrial Economy and organization'
+  url: ''
+  desc: 'Research; gathering and processing information. Working in groups,
+         projects. Quality, time and cost in collaborative projects.'
+  date: '2013-11-13'
+  hidden: 0
+
+- code: 'DV009A'
+  name: 'Computers and Software Engineering'
+  school: 'Högskolan i Gävle'
+  topic: 'Computer Science'
+  url: ''
+  desc: 'Built a robot system with client software written in Java,
+         hardware platform with an embedded system running on C+ interfaces
+         to the robot. All hardware and software designed from scratch.'
+  date: '2014-01-16'
+  hidden: 0
+
+- code: 'EEG002'
+  name: 'Logic systems'
+  school: 'Högskolan i Gävle'
+  topic: 'Electronics'
+  url: ''
+  desc: 'Digital logic circuit design, simulation and prototyping/construction.'
+  date: '2014-02-05'
+  hidden: 0
+
+- code: 'DV017A'
+  name: 'Basic Programming in Java'
+  school: 'Högskolan i Gävle'
+  topic: 'Computer Science'
+  url: ''
+  desc: 'Programming and problem solving using Java.'
+  date: '2015-08-21'
+  hidden: 0
