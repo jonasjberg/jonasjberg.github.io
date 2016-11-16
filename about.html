@@ -1,0 +1,19 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
+<div class="about">
+
+    <h1 class="page-heading">CV</h1>
+    <h2>Completed courses</h2>
+    <ul>
+        {% for course in site.data.courses %}
+        <l>
+            {{ course.code }} - {{ course.name }}
+        </l>
+        {% endfor %}
+    </ul>
+
+</div>
