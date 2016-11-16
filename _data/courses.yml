@@ -3,8 +3,7 @@
   school: 'Högskolan i Gävle'
   topic: 'Industrial Economy and organization'
   url: ''
-  desc: 'Research; gathering and processing information. Working in groups,
-         projects. Quality, time and cost in collaborative projects.'
+  desc: 'Research, information processing. Group projects. Quality, time and cost in collaborative projects.'
   date: '2013-11-13'
   hidden: 0
 
@@ -13,7 +12,7 @@
   school: 'Högskolan i Gävle'
   topic: 'Computer Science'
   url: ''
-  desc: 'Built a robot system with client software written in Java,
+  desc: 'General computer science and software engineering overview. Designed and built a robot control system with client software written in Java,
          hardware platform with an embedded system running on C+ interfaces
          to the robot. All hardware and software designed from scratch.'
   date: '2014-01-16'
