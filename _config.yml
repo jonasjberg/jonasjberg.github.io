@@ -15,3 +15,10 @@ markdown: kramdown
 
 sass:
     sass_dir: _sass
+
+
+# "Bind HTTP server to all available IPs, rather than just to localhost.
+#  GitHub will simply ignore this when pushing, so it's safe to use if you
+#  don't mind having your work openly accessible on your network."
+# http://stackoverflow.com/a/16608698
+host: 0.0.0.0
