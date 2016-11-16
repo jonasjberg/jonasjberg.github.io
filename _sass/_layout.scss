@@ -34,11 +34,23 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
+        font-family: $menu-font-family;
+        text-transform: uppercase;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 20px;
         }
+
+        text-decoration: none;
+        &:hover {
+            background-color: $hover-background-color;
+        }
+    }
+
+
+    a:hover {
+        /*text-decoration: none;*/
     }
 
     @include media-query($on-palm) {

@@ -10,11 +10,13 @@
 $base-font-family: Georgia, Constantia, "Lucida Bright", Lucidabright,
                    "Lucida Serif", Lucida, "DejaVu Serif", serif;
 $mono-font-family: "Ubuntu Mono", "Liberation Mono", Monospaced, Monospace;
+$menu-font-family: "PT Serif", serif;
 
 $base-font-size:   16px;
 $medium-font-size: $base-font-size * 0.938;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$code-font-size:   $base-font-size * 0.75;
+$base-line-height: 1.6;
 
 $spacing-unit:     30px;
 
@@ -25,6 +27,8 @@ $brand-color:      firebrick;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+
+$hover-background-color: $grey-color-light;
 
 $on-palm:          600px;
 $on-laptop:        800px;
