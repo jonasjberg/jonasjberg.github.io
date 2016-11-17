@@ -4,14 +4,19 @@ description: >
   These are my thoughts on software development,
   analog circuit design and embedded systems.
 author: "Jonas Sjöberg"
+email: jomeganas@gmail.com
 
 url: https://jonasjberg.github.io
 baseurl: ""         # the subpath of your site, e.g. /blog/
 site: jonasjberg.github.io
 
-email: jomeganas@gmail.com
 twitter_username: jonasjberg
 github_username:  jonasjberg
+linkedin_username:
+google_plus_username:
+facebook_username: jonasjbrg
+dribbble_username:
+instagram_username: jonasjberg
 
 # markdown: kramdown
 # kramdown:
