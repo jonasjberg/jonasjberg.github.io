@@ -1,26 +1,22 @@
 <!DOCTYPE html>
 <html>
 
-  <!-- For content that is repeated across *all* pages. -->
+{% include head.html %}
 
-  {% include head.html %}
+{% if page.disqus %}
+    <script id="dsq-count-scr" src="//joshuacoxgithubio.disqus.com/count.js" async></script>
+{% endif %}
 
-  {% if page.disqus %}
-      <script id="dsq-count-scr" src="//joshuacoxgithubio.disqus.com/count.js" async></script>
-  {% endif %}
-
-  <body>
-
+<body>
     {% include header.html %}
 
     <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+        <div class="wrapper">
+            {{ content }}
+        </div>
     </div>
 
     {% include footer.html %}
-
-  </body>
+</body>
 
 </html>
