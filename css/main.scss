@@ -30,18 +30,22 @@ $h6-font-size:     $medium-font-size;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      firebrick;
+$text-color:        #111;
+$background-color:  #fdfdfd;
+$brand-color:       firebrick;
+$brand-color-light: lighten($brand-color, 20%);
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-$hover-background-color: $grey-color-light;
+$hover-background-color: $brand-color-light;
+$hover-text-color:       white;
 
 $on-palm:          600px;
 $on-laptop:        800px;
+
+$animation-duration-fade: 512ms;
 
 // Using media queries with like this:
 // @include media-query($palm) {

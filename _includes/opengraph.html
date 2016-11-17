@@ -1,6 +1,24 @@
 <meta property="og:type" content="article" />
-<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description | markdownify | strip_html }}{% endif %}" />
+
+{% if page.title %}
+    <meta content="{{ page.title }}" property="og:title">
+{% else %}
+    <meta content="{{ site.title }}" property="og:title">
+{% endif %}
+
+{% if page.excerpt %}
+    <meta content="{{ page.excerpt | strip_html }}" property="og:description">
+{% elsif page.description %}
+    <meta content="{{ page.description | markdownify | strip_html }}" property="og:description">
+{% elsif site.description %}
+    <meta content="{{ site.description | markdownify | strip_html }}" property="og:description">
+{% endif %}
+
+{% if page.date %}
+    <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+    <meta content="{{ site.url }}/about/" property="article:author">
+{% endif %}
+
 <meta property="og:site_name" content="{{ site.title }}" />
 <meta property="og:url" content="{{site.github.url }}{{ page.url }}" />
 {% if page.image %}
