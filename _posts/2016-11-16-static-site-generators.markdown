@@ -13,11 +13,17 @@ called [Separation of concerns][wiki-sepcon].
 
 It is a important foundational design principle that boils down to
 splitting big and/or complex problems into smaller more manageable
-chunks --- "divide and conquer".  It also states that one should
+chunks --- "divide and conquer".  It then also follows that one should
 strive to separate responsibilities and consequences for change.
 
-Content should describe content, not presentation.
-Likewise, a change in the presentation should not change the content.
+Content should be concerned with only content, not presentation.
+
+* The content should be _open to modification_ without having to worry
+  about inadvertently modifying the presentation.
+
+* Likewise, a change in the presentation should not change the content.
+  The presentation should be able to _change without affecting the
+  content_.
 
 Advantages of separating style from content
 -------------------------------------------
@@ -27,6 +33,7 @@ other literature. The author can concentrate on the content alone,
 without having to think about formatting the text as it is entered. It
 also makes for more __consistent styling and formatting__ of documents.
 
+More on this in an upcoming post ..
 
 Static Site Generators
 ======================

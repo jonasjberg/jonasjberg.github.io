@@ -49,7 +49,6 @@
         }
     }
 
-
     a:hover {
         /*text-decoration: none;*/
     }
@@ -133,29 +132,29 @@
 
 .footer-col-1 {
     width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: calc(35% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
     width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: calc(20% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: calc(45% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
     .footer-col-1,
     .footer-col-2 {
         width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
+        width: calc(50% - (#{$spacing-unit} / 2));
     }
 
     .footer-col-3 {
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        width: calc(100% - (#{$spacing-unit} / 2));
     }
 }
 
@@ -163,7 +162,7 @@
     .footer-col {
         float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        width: calc(100% - (#{$spacing-unit} / 2));
     }
 }
 
@@ -175,7 +174,7 @@
 }
 
 .page-heading {
-    font-size: $huge-font-size;
+    font-size: $font-size-huge;
     text-align: center;
 }
 
@@ -189,7 +188,7 @@
 }
 
 .page-meta {
-    font-size: $small-font-size;
+    font-size: $font-size-small;
     color: $grey-color;
 }
 
@@ -203,7 +202,7 @@
 }
 
 .page-title {
-    font-size: 42px;
+    font-size: $font-size-insane;
     letter-spacing: -1px;
     line-height: 1;
 

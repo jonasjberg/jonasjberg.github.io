@@ -13,7 +13,7 @@ dl, dd, ol, ul, figure {
  */
 body {
     font-family: $base-font-family;
-    font-size: $base-font-size;
+    font-size: $font-size-base;
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
@@ -47,7 +47,7 @@ figure > img {
 }
 
 figcaption {
-    font-size: $small-font-size;
+    font-size: $font-size-small;
 }
 
 /**
@@ -99,7 +99,7 @@ blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
-    font-size: 18px;
+    font-size: $font-size-medium;
     letter-spacing: -1px;
     font-style: italic;
 
@@ -113,7 +113,7 @@ blockquote {
  */
 pre,
 code {
-    font-size: $code-font-size;
+    font-size: $font-size-code;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
     background-color: $grey-color-light;
