@@ -7,6 +7,9 @@ disqus: true
 ---
 
 
+First of all, keep in mind I have all but a couple of weeks of
+experience in web development. These are the thoughts of a _n00b_.
+
 Modern Web Development
 ======================
 A couple of the courses I'm taking cover developing websites and
@@ -93,8 +96,8 @@ languages. And if CSS pre-processors wasn't a thing yet and my day job
 involved editing a lot of CSS-files, I'd probably start collecting
 useful snippets of simple code into something like my own pre-processor.
 
-Sass
-====
+First impressions
+=================
 This blog uses the [Sass CSS pre-processor][sass]. Sass is
 
 > Sass is the most mature, stable, and powerful professional grade CSS
@@ -121,13 +124,72 @@ sizes for headings, sub-headings, sub-sub-headings, etc., can then
 be calculated from the base using scalars.
 
 {% highlight sass %}
-
-
+$font-size-base:          16px;
+$font-size-small:         $font-size-base * 0.875;      // 14
+$font-size-medium:        $font-size-base * 1.125;      // 18
+$font-size-big:           $font-size-base * 1.25;       // 20
+$font-size-bigger:        $font-size-base * 1.625;      // 26
+$font-size-huge:          $font-size-base * 2;          // 32
+$font-size-insane:        $font-size-base * 2,625;      // 42
 {% endhighlight %}
 
+These features are not exclusive to SASS but common to most CSS
+pre-processors.
 
 
+Pros and cons
+=============
+As with everything else, there are both pros and cons:
 
+### Pros
+
+* Ease of development
+    * Less repetition
+    * Does calculations
+
+* Maintainability
+    * Modularizing by splitting into multiple files
+
+* Collaboration
+    * Version control systems often handle many smaller files
+      better than one big file, think merge-conflicts.
+
+* Code re-use
+    * Common parts can be extracted into separate files for re-use
+      across multiple projects.
+
+### Cons
+
+* Debugging
+    * The code you write is different from what the browser renders.
+      This can make debugging a bit more difficult, but there are
+      solutions to this problem.
+    * Line-numbers in the browser traceback do not match the line-numbers
+      in the source files, as per above.
+
+* Complexity
+    * Requires tools to compile the source files to plain CSS.
+    * Site must be rebuilt in order to see changes. Risk becoming very
+      slow for big projects with a lot of dependencies.
+
+* Compilation
+    * Resulting CSS-files could be smaller and more optimized.
+      Compiler might do the very best thing 99% of the time, but..
+    * Requires trust that the pre-processor does what is needed for
+      the project. What if some feature is missing or the generated
+      CSS is messed up? Get the pre-processor source code and dig in..
+
+
+Conclusions
+===========
+Programmers write tools because they are programmers.
+
+The amount of tools and frameworks available for use in web development is staggering.
+
+Working solely with plain html and CSS to produce modern websites to
+would be insane. There is no practical alternatives -- learn to love the tools.
+
+.. I do not enjoy web development.
 
 
 
