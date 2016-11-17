@@ -1,9 +1,9 @@
 ---
-layout:   post
-title:    "Static Site Generators"
-date:     2016-11-16 18:00:52
-tags:     [development, jekyll, meta, workflow]
-comments: true
+layout: post
+title:  "Static Site Generators"
+date:   2016-11-16 18:00:52
+tags:   [development, jekyll, meta, workflow]
+disqus: true
 ---
 
 Separating concerns

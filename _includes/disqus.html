@@ -1,16 +1,11 @@
-<!-- https://jonasjberg.disqus.com/admin/install/platforms/universalcode -->
 <div id="disqus_thread"></div>
 <script>
-
-    /**
-     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-    /*
+     // https://disqus.com/admin/universalcode/#configuration-variables*/
+     // https://jonasjberg.disqus.com/admin/install/platforms/universalcode
      var disqus_config = function () {
-     this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-     this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+     this.page.url = "http://{{ site.site }}{{ page.url }}";
+     this.page.identifier = "{{ site.site }}{{ page.url }}";
      };
-     */
     (function() { // DON'T EDIT BELOW THIS LINE
         var d = document, s = d.createElement('script');
         s.src = '//jonasjberg.disqus.com/embed.js';

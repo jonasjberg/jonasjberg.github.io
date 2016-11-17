@@ -4,8 +4,9 @@ description: >
   analog circuit design and embedded systems.
 author: "Jonas Sjöberg"
 
-url: ""             # the base hostname & protocol for your site
+url: https://jonasjberg.github.io
 baseurl: ""         # the subpath of your site, e.g. /blog/
+site: jonasjberg.github.io
 
 email: jomeganas@gmail.com
 twitter_username: jonasjberg
