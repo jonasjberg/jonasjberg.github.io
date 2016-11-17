@@ -12,38 +12,38 @@ $base-font-family: Georgia, Constantia, "Lucida Bright", Lucidabright,
 $mono-font-family: "Ubuntu Mono", "Liberation Mono", Monospaced, Monospace;
 $menu-font-family: "PT Serif", serif;
 
-$base-font-size:   16px;
-$huge-font-size:   $base-font-size * 1.938;
-$bigger-font-size: $base-font-size * 1.75;
-$big-font-size:    $base-font-size * 1.125;
-$medium-font-size: $base-font-size * 0.938;
-$small-font-size:  $base-font-size * 0.875;
-$code-font-size:   $base-font-size * 0.75;
-$base-line-height: 1.6;
+$base-font-size:          16px;
+$huge-font-size:          $base-font-size * 1.938;
+$bigger-font-size:        $base-font-size * 1.75;
+$big-font-size:           $base-font-size * 1.125;
+$medium-font-size:        $base-font-size * 0.938;
+$small-font-size:         $base-font-size * 0.875;
+$code-font-size:          $base-font-size * 0.75;
+$base-line-height:        1.6;
 
-$h1-font-size:     $huge-font-size;
-$h2-font-size:     $bigger-font-size;
-$h3-font-size:     $big-font-size;
-$h4-font-size:     $medium-font-size;
-$h5-font-size:     $medium-font-size;
-$h6-font-size:     $medium-font-size;
+$h1-font-size:            $huge-font-size;
+$h2-font-size:            $bigger-font-size;
+$h3-font-size:            $big-font-size;
+$h4-font-size:            $medium-font-size;
+$h5-font-size:            $medium-font-size;
+$h6-font-size:            $medium-font-size;
 
-$spacing-unit:     30px;
+$spacing-unit:            30px;
 
-$text-color:        #111;
-$background-color:  #fdfdfd;
-$brand-color:       firebrick;
-$brand-color-light: lighten($brand-color, 20%);
+$text-color:              #111;
+$background-color:        #fdfdfd;
+$brand-color:             firebrick;
+$brand-color-light:       lighten($brand-color, 20%);
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color:              #828282;
+$grey-color-light:        lighten($grey-color, 40%);
+$grey-color-dark:         darken($grey-color, 25%);
 
-$hover-background-color: $brand-color-light;
-$hover-text-color:       white;
+$hover-background-color:  $brand-color-light;
+$hover-text-color:        white;
 
-$on-palm:          600px;
-$on-laptop:        800px;
+$on-palm:                 600px;
+$on-laptop:               800px;
 
 $animation-duration-fade: 512ms;
 
