@@ -76,3 +76,14 @@
         }
     }
 }
+
+
+.post-list {
+   li {
+       list-style: none;
+   }
+}
+
+.post-link {
+    font-size: $bigger-font-size;
+}
