@@ -1,5 +1,5 @@
 ---
-layout: bio
+layout: about
 title:  "About me"
 date:   2016-11-17 19:06:40
 tags:   []

@@ -170,12 +170,14 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    /*padding: $spacing-unit 0;*/
 }
 
 .page-heading {
     font-size: $font-size-huge;
     text-align: center;
+    margin-bottom: $spacing-unit;
+    margin-top: $spacing-unit / 1.5;
 }
 
 .page-list {
@@ -207,7 +209,7 @@
     line-height: 1;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: $font-size-hugest;
     }
 }
 
@@ -215,26 +217,26 @@
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 32px;
+        font-size: $font-size-huge;
 
         @include media-query($on-laptop) {
-            font-size: 28px;
+            font-size: $font-size-biggest;
         }
     }
 
     h3 {
-        font-size: 26px;
+        font-size: $font-size-bigger;
 
         @include media-query($on-laptop) {
-            font-size: 22px;
+            font-size: $font-size-big * 1.1;
         }
     }
 
     h4 {
-        font-size: 20px;
+        font-size: $font-size-big;
 
         @include media-query($on-laptop) {
-            font-size: 18px;
+            font-size: $font-size-medium;
         }
     }
 }
