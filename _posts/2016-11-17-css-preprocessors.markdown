@@ -31,23 +31,28 @@ development world makes navigating around them difficult.
 
 Tradeoffs
 ---------
-Some might say Gmail shouldn't be as buggy and take several seconds to
-load. Some might say sending _plain text_ over the internet is a
-problem solved way back in the 1970s.
-But _code quality_ is seldom the target priority -- rather, beating the
-competition to market with a "good enough" product is priority number one.
+[Some might say][muratori-quality] webapps like Gmail shouldn't be as
+buggy and take so long to load. [Some might say][muratori-quality]
+sending _plain text_ over the internet is a problem solved way back in
+the 1970s. But even with contemporary computing power, much of modern
+software performs very bad.
+
+[Casey argues][muratori-quality] that _code quality_ isn't prioritized
+-- beating the competition to market with a "good enough" product is
+the primary concern.
 
 Insanely slow and often buggy code seems to be considered a worthwhile
-tradeoff for ease and speed of development. Casey Muratori says this
+sacrifice for ease and speed of development. Casey Muratori says this
 very eloquently [here][muratori-quality].
 
 However
 -------
 Getting to know the modern web development workflow and methodologies
 is *very interesting* and worthwhile. Even though I have no interest
-in pursuing a career in any kind of web development, the web is unavoidable at this point.
-Even as an electronics engineer, basic knowledge of scripting languages, html and CSS
-can help improve throughput.
+in pursuing a career in any kind of web development, the web is
+unavoidable at this point.
+Even as an electronics engineer, basic knowledge of scripting languages,
+html and CSS can help improve throughput.
 At the very least, the ability to maintain a strong online presence has
 become very important when hunting for employment..
 
@@ -169,25 +174,26 @@ As with everything else, there are both pros and cons:
 
 * Complexity
     * Requires tools to compile the source files to plain CSS.
-    * Site must be rebuilt in order to see changes. Risk becoming very
-      slow for big projects with a lot of dependencies.
+    * Site must be rebuilt in order to see changes. Risk becoming very slow for
+      big projects with a lot of dependencies.
 
 * Compilation
     * Resulting CSS-files could be smaller and more optimized.
       Compiler might do the very best thing 99% of the time, but..
-    * Requires trust that the pre-processor does what is needed for
-      the project. What if some feature is missing or the generated
-      CSS is messed up? Get the pre-processor source code and dig in..
+    * Requires trust that the pre-processor does what is needed for the
+      project. What if some feature is missing or the generated CSS is messed
+      up? Get the pre-processor source code and dig in..
 
 
 Conclusions
 ===========
 Programmers write tools because they are programmers.
 
-The amount of tools and frameworks available for use in web development is staggering.
+The amount of tools and frameworks available for use in web development is
+staggering.
 
-Working solely with plain html and CSS to produce modern websites to
-would be insane. There is no practical alternatives -- learn to love the tools.
+Working solely with plain html and CSS to produce modern websites to would be
+insane. There is no practical alternatives -- learn to love the tools.
 
 .. I do not enjoy web development.
 
