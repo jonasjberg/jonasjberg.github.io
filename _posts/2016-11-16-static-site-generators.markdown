@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "Static Site Generators"
-date:   2016-11-16 18:00:52
-tags:   [development, jekyll, meta, workflow]
+layout:   post
+title:    "Static Site Generators"
+date:     2016-11-16 18:00:52
+tags:     [development, jekyll, meta, workflow]
+comments: true
 ---
 
 Separating concerns
@@ -71,6 +72,25 @@ This brings some advantages:
 
 * __Programmability__ -- content and structure can be generated
   programmatically, following some defined logic.
+
+
+Disadvantages to static websites
+--------------------------------
+The nature of static sites and static site generators makes them less
+suitable in some use cases.
+
+Advanced shopping and social sites like `ebay` or `facebook` requires
+a sophisticated content management system, among other things. Static
+site generators are not suitable for this kind of heavy-weight corporate
+sites with involved interactivity.
+
+Continued reading
+-----------------
+
+* ["Why Static Website Generators Are The Next Big Thing" by Mathias Biilmann Christensen][biilmann]
+* ["Static vs. Dynamic website design" by SpiderWriting Web Design][spiderwriting]
+* ["How We Build CMS-Free Websites" by Dave Cole][cms-to-jekyll]
+
 
 
 Content, structure and presentation
@@ -153,7 +173,8 @@ Contrast this to manually updating dozens of `html`-files and keeping
 track of a possibly complex directory hierarchy to be mirrored on the
 server.
 This used to be done with a _Content Management System_. [Interesting
-read][cms-to-jekyll] about moving from a _CMS_ to using `jekyll`.
+read][cms-to-jekyll] about moving from traditional design using a
+ _CMS_ to using `jekyll`.
 
 ### Closing thoughts
 This paired with your favourite version control system makes for a very
@@ -179,3 +200,5 @@ is a very popular blogging platform and I have no difficulty seeing why.
 [jekyll-github]: https://github.com/jekyll/jekyll
 [github-pages]: https://pages.github.com/
 [cms-to-jekyll]: https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/
+[biilmann]: https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/
+[spiderwriting]: http://www.spiderwriting.co.uk/static-dynamic.php
