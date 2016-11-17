@@ -7,8 +7,14 @@
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li>{{ site.author }}</li>
+          <li>{{ site.country }}</li>
+          <li>
+              <a href="mailto:{{ site.email }}" class="icon">
+                  <i class="fa fa-envelope"></i>
+                  {{ site.email }}
+              </a>
+          </li>
         </ul>
       </div>
 
