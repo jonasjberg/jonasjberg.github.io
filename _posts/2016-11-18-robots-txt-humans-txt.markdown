@@ -14,7 +14,7 @@ This post is part of an assignment in the course
 University in Kalmar.
 
 Internet courtesy and de-facto standards
-========================================
+----------------------------------------
 This is yet another part of the ongoing assignment to explore static
 site generators and a variety of concepts related to the web in general
 and website creation in particular.
@@ -23,9 +23,10 @@ This time it is about some agreed upon, (defacto) standardization
 and internet history.
 
 robots.txt
-----------
+==========
 
-### Overview
+Overview
+--------
 According to [robotstxt.org][robotstxt], `robots.txt` can be
 [described thusly][robotstxt-about]:
 
@@ -51,7 +52,8 @@ Alternative description by [robotstxt.org][robotstxt-about]:
 > The `"Disallow: /"` tells the robot that it should not visit any
 > pages on the site.
 
-### History and standardization
+History
+-------
 And this is where the internet history comes in. The internet _used
 to be much more friendly_ place. There were barely any users compared
 to today, which means barely any malware. Users average skill level
@@ -78,7 +80,8 @@ There are two historical descriptions:
   (I just love these plain text _Request For Comments_ documents..)
 
 
-### Standardization
+Standardization
+---------------
 The `robots.txt` file is a _de-facto_ standard, I.E. it has come to be
 accepted as a standard after having ["achieved a dominant position
 by public acceptance or market forces"][wiki-defacto].
@@ -94,7 +97,7 @@ Also, see the [robotstxt.org][robotstxt-about] site for more information.
 
 
 humans.txt
-----------
+==========
 This is a much newer idea than `robots.txt`. Similar in naming but not
 in function. It seems like someone likes playing around with words ---
 "well _I'm not_ a robot ..". Humans need a separate txt file.
