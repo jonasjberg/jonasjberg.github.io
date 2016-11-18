@@ -5,15 +5,19 @@ layout: default
 <div class="post">
 
     <header class="post-header">
-        <span class="post-date">
-            Posted {{ page.date | date: "%A %F" | downcase }}
+        <span class="post-meta">
+            <span class="post-date">
+                Posted {{ page.date | date: "%A %F" | downcase }}
+                {% if page.author %}
+                    by {{ page.author }}
+                {% elsif site.author.fullname %}
+                    by {{ site.author.fullname }}
+                {% endif %}
+            </span>
         </span>
 
         <h1 class="post-title">{{ page.title }}</h1>
 
-        <span class="post-meta">
-            {% if page.author %}{{ page.author }}{% endif %}
-        </span>
 
         <h3 class="post-tags">Tags</h3>
         <span class="entry-tags">

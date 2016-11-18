@@ -1,11 +1,12 @@
 locale: eng-US
-title: "jonasjberg"
+title: jonasjberg
 description: >
   These are my thoughts on software development,
   analog circuit design and embedded systems.
-author: "Jonas Sjöberg"
-email: jomeganas@gmail.com
-country: Northern Sweden
+author:
+    fullname:  Jonas Sjöberg
+    location: Northern Sweden
+    email: jomeganas@gmail.com
 
 url: https://jonasjberg.github.io
 baseurl: ""         # the subpath of your site, e.g. /blog/

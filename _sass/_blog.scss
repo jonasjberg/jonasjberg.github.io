@@ -28,6 +28,11 @@
         font-size: $font-size-medium;
         vertical-align: baseline;
     }
+
+    .post-meta {
+        margin-bottom: 0.5em;
+        display: block;
+    }
 }
 
 .post-tags:after {

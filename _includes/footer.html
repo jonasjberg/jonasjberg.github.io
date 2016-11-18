@@ -1,32 +1,39 @@
 <footer class="site-footer">
 
-  <div class="wrapper">
+    <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+        <h2 class="footer-heading">{{ site.title }}</h2>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.author }}</li>
-          <li>{{ site.country }}</li>
-          <li>
-              <a href="mailto:{{ site.email }}" class="icon">
-                  <i class="fa fa-envelope"></i>
-                  {{ site.email }}
-              </a>
-          </li>
-        </ul>
-      </div>
+        <div class="footer-col-wrapper">
+            <div class="footer-col  footer-col-1">
+                <ul class="contact-list">
+                    {% if site.author.fullname %}
+                    <li>{{ site.author.fullname }}</li>
+                    {% endif %}
+                    {% if site.author.location %}
+                    <li>{{ site.author.location }}</li>
+                    {% endif %}
+                    {% if site.author.email %}
+                    <li>
+                        <a href="mailto:{{ site.author.email }}" class="icon">
+                            <i class="fa fa-envelope"></i>
+                            {{ site.author.email }}
+                        </a>
+                    </li>
+                    {% endif %}
+                </ul>
 
-      <div class="footer-col  footer-col-2">
-          {% include social-icons.html %}
-      </div>
+            </div>
 
-      <div class="footer-col  footer-col-3">
-        <p class="text">{{ site.description }}</p>
-      </div>
+            <div class="footer-col  footer-col-2">
+                {% include social-icons.html %}
+            </div>
+
+            <div class="footer-col  footer-col-3">
+                <p class="text">{{ site.description }}</p>
+            </div>
+        </div>
+
     </div>
-
-  </div>
 
 </footer>
