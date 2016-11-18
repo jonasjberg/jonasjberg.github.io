@@ -80,15 +80,65 @@
     }
 }
 
-
 .post-list {
-    list-style: none;
-    display: inline-block;
+    text-align: center;
+    width: 100%;
 
-    > li {
-        margin-bottom: $spacing-unit / 2;
+    ul {
+        margin: 0;
+        width: 90%;
+        list-style: none;
+        display: inline-block;
+        vertical-align: baseline;
+
+        .post-meta {
+            vertical-align: baseline;
+            font-size: $font-size-big;
+            float: left;
+            text-align: left;
+            padding-left: 5%;
+            height: 100%;
+            /*width: 50%;*/
+            @include media-query($on-laptop) {
+                float: none;
+                width: 100%;
+                display: block;
+                padding-left: 0;
+            }
+        }
+
+        .post-link {
+            vertical-align: middle;
+            font-size: $font-size-bigger;
+            float: right;
+            width: 50%;
+
+            @include media-query($on-laptop) {
+                float: none;
+                width: 100%;
+                display: block;
+                text-align: left;
+            }
+        }
+
+        @include media-query($on-laptop) {
+            /*display: block;*/
+        }
+    }
+
+    li {
+        width: 100%;
+        line-height: 2.2em;
+        margin-bottom: $spacing-unit / 3;
         margin-top: 0;
         padding-top: 0;
+        display: inline-block;
+        text-align: center;
+        vertical-align: baseline;
+
+        @include media-query($on-laptop) {
+            display: block;
+        }
     }
 }
 

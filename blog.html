@@ -9,20 +9,20 @@ description: "Past blog posts on various subjects, sorted chronologically."
 
     <h1 class="page-heading">Archived blog posts</h1>
 
-    <ul class="post-list">
-        {% for post in site.posts %}
-            <li>
-                <span class="post-meta">{{ post.date | date: "%F %A" }}</span>
+    <div class="post-list">
+        <ul>
+            {% for post in site.posts %}
+                <li>
+                    <span class="post-meta">{{ post.date | date: "%F %A" }}</span>
 
-                <h2>
                     <a class="post-link"
                        href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                </h2>
-            </li>
-        {% endfor %}
-    </ul>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
 
-    <h2 class="page-heading">Post tags</h2>
+    <h2 class="page-heading">Posts sorted by tags</h2>
     {% include tags.html %}
 
     <h2>RSS feed</h2>
