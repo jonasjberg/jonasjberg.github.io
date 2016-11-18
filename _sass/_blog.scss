@@ -82,13 +82,19 @@
 
 
 .post-list {
-   li {
-       list-style: none;
-   }
+    list-style: none;
+    display: inline-block;
+
+    > li {
+        margin-bottom: $spacing-unit / 2;
+        margin-top: 0;
+        padding-top: 0;
+    }
 }
 
 .post-link {
-    font-size: $font-size-biggest;
+    font-size: $font-size-big;
+    vertical-align: top;
 }
 
 .tag-collection {
