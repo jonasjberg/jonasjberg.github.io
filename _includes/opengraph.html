@@ -24,3 +24,7 @@
 {% if page.image %}
     <meta property="og:image" content="{{site.github.url }}{{ page.image }}" />
 {% endif %}
+
+{% if page.tags %}
+    <meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
+{% endif %}
