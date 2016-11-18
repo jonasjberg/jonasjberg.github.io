@@ -2,7 +2,7 @@
 layout: post
 title:  "Static Site Generators"
 date:   2016-11-16 18:00:52
-tags:   [development, jekyll, meta, workflow, web]
+tags:   [development, jekyll, workflow, web]
 disqus: true
 ---
 

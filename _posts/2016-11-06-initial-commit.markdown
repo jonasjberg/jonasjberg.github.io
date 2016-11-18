@@ -2,7 +2,7 @@
 layout: post
 title:  "Initial commit."
 date:   2016-11-06 17:00:45
-tags:   [development, jekyll, meta, devops]
+tags:   [development, jekyll, devops]
 disqus: true
 ---
 
