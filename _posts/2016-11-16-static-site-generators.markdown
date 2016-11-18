@@ -2,9 +2,13 @@
 layout: post
 title:  "Static Site Generators"
 date:   2016-11-16 18:00:52
-tags:   [development, jekyll, meta, workflow]
+tags:   [development, jekyll, meta, workflow, web]
 disqus: true
 ---
+
+This post is part of an assignment in the course
+["1DV022 -- Client-based Web Programming"][1dv022] at Linnaeus
+University in Kalmar.
 
 Separating concerns
 ===================
@@ -199,6 +203,7 @@ Jekyll paired with the free hosting provided by [GitHub pages][github-pages]
 is a very popular blogging platform and I have no difficulty seeing why.
 
 
+[1dv022]: https://coursepress.lnu.se/kurs/klientbaserad-webbprogrammering/
 [wiki-sepcon]: https://en.wikipedia.org/wiki/Separation_of_concerns
 [allincottrell]: http://dsv.su.se/polopoly_fs/1.125295.1361458482!/menu/standard/file/wp.htm
 [proprietaryformats]: http://www.podval.org/~sds/data.html

@@ -2,9 +2,14 @@
 layout: post
 title:  "Adding user comments"
 date:   2016-11-18 01:33:37
-tags:   [development, devops]
+tags:   [development, devops, web]
 disqus: true
 ---
+
+
+This post is part of an assignment in the course
+["1DV022 -- Client-based Web Programming"][1dv022] at Linnaeus
+University in Kalmar.
 
 Adding comments to the website
 ==============================
@@ -39,5 +44,7 @@ The `disqus` code is also kept in a separate file and is inserted based on
 whether the variable is set.
 
 
+
+[1dv022]: https://coursepress.lnu.se/kurs/klientbaserad-webbprogrammering/
 [disqus]: https://disqus.com/
 [disqus-features]: https://disqus.com/features/

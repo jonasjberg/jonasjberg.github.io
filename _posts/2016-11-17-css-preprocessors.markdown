@@ -2,10 +2,14 @@
 layout: post
 title:  "On CSS preprocessors"
 date:   2016-11-17 22:01:49
-tags:   [development, devops]
+tags:   [development, devops, web]
 disqus: true
 ---
 
+
+This post is part of an assignment in the course
+["1DV022 -- Client-based Web Programming"][1dv022] at Linnaeus
+University in Kalmar.
 
 First of all, keep in mind I have all but a couple of weeks of
 experience in web development. These are the thoughts of a _n00b_.
@@ -199,9 +203,7 @@ insane. There is no practical alternatives -- learn to love the tools.
 
 
 
-
-
-
+[1dv022]: https://coursepress.lnu.se/kurs/klientbaserad-webbprogrammering/
 [mozilla-webapp]: https://developer.mozilla.org/en-US/Apps/Fundamentals/Modern_web_app_architecture
 [muratori-quality]: https://www.youtube.com/watch?v=6azav9sXK_4
 [1dv022]: https://coursepress.lnu.se/kurs/klientbaserad-webbprogrammering/
