@@ -147,19 +147,17 @@
     vertical-align: top;
 }
 
-.tag-collection {
+#tag-collection {
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 2em;
 
     li {
         display: inline-block;
         margin-right: 0.25em;
-    }
-
-    ul {
-        display: flex;
-        justify-content: space-between;
-        list-style-type: none;
-        background-color: yellow;
-        width: 100%;
     }
 
     .tag-collection-count {
@@ -177,3 +175,27 @@
     margin-right: 0.5em;
     padding: 0;
 }
+
+.tags {
+    padding-top: 2em;
+}
+
+//#posts-sorted-by-tag {
+//    display: inline-block;
+//    clear: both;
+//
+//    h3 {
+//        display: inline-block;
+//        float: left;
+//        width: 20%;
+//        margin-bottom: 1em;
+//    }
+//
+//    .posts {
+//        background-color: yellow;
+//        /*display: inline-block;*/
+//        float: right;
+//        width: 70%;
+//        margin-bottom: 1em;
+//    }
+//}
