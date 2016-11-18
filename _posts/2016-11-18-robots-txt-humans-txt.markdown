@@ -4,6 +4,7 @@ title:  "robots.txt and humans.txt"
 date:   2016-11-18 03:37:06
 tags:   [development, devops, web]
 disqus: true
+image:  "https://c1.staticflickr.com/5/4038/4492547207_0214fbb43b_b.jpg"
 ---
 
 What does this strange title mean? And what could it possibly entail?
