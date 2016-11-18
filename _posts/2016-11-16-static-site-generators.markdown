@@ -168,24 +168,36 @@ emphasis {
 Generating static sites
 -----------------------
 The static site generator enables a natural way of authoring while
-keeping the content and style separate.
+keeping content and style separate. The source material can be split
+up over many files in a complex structure, while still keeping the
+generatated website structure simple and compact.
+
+The content is authored in your favorite text editor. Simple _markdown_ syntax
+adds markup to the text. 
+
 
 ### Jekyll
-The content is authored in your favorite text editor with markdown
-syntax. The static site generator [`jekyll`][jekyll] can be
-configured to watch for changes to the site. Any time the markdown
-source files are saved to disk, the entire site is rebuilt from
-scratch in (hopefully) a couple of hundred milliseconds.
+There are __a lot__ of static site generators to choose from. 
+[`Jekyll`][jekyll] is a popular choice. It is written and Ruby, is open source
+and integrates nicely with GitHub pages.
 
-This means adding content is very easy, everything is handled
-automatically by `jekyll`. After having arrived at a good enough design,
-new content can be added by simply creating text files in a directory.
-Contrast this to manually updating dozens of `html`-files and keeping
-track of a possibly complex directory hierarchy to be mirrored on the
-server.
+Jekyll can be configured to watch for changes to the site. When the 
+markdown source files are saved to disk, the entire site is rebuilt from
+scratch in (hopefully) a couple of hundred milliseconds.
+This means that the website is continously updated as the content is authored,
+giving a nice preview; just like "[WYSIWYG][wysiwyg]" editors.
+
+This means adding content is very easy, everything is handled automatically by
+`jekyll`. After having arrived at a good enough design, new content can be
+added by simply creating text files in a directory.  Contrast this to manually
+updating dozens of `html`-files and keeping track of a possibly complex
+directory hierarchy to be mirrored on the server.
+
+Jekyll also provides features for adding media content in various ways.
 This used to be done with a _Content Management System_. [Interesting
 read][cms-to-jekyll] about moving from traditional design using a
  _CMS_ to using `jekyll`.
+
 
 ### Closing thoughts
 This paired with your favourite version control system makes for a very
@@ -214,3 +226,4 @@ is a very popular blogging platform and I have no difficulty seeing why.
 [cms-to-jekyll]: https://developmentseed.org/blog/2012/07/27/build-cms-free-websites/
 [biilmann]: https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/
 [spiderwriting]: http://www.spiderwriting.co.uk/static-dynamic.php
+[wiki-wysiwyg]: https://en.wikipedia.org/wiki/WYSIWYG
