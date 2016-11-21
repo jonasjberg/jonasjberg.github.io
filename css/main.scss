@@ -13,6 +13,7 @@ $mono-font-family: "Ubuntu Mono", "Liberation Mono", Monospaced, Monospace;
 $menu-font-family: "PT Serif", serif;
 
 $font-size-base:          16px;
+$font-size-smaller:       $font-size-base * 0.825;
 $font-size-small:         $font-size-base * 0.875;
 $font-size-medium:        $font-size-base * 1.125;      // 18
 $font-size-big:           $font-size-base * 1.25;       // 20
