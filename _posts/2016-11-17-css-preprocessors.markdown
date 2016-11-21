@@ -172,7 +172,7 @@ As with everything else, there are both pros and cons:
 * Debugging
     * The code you write is different from what the browser renders.
       This can make debugging a bit more difficult, but there are
-      solutions to this problem.
+      [solutions][sass-sourcemaps] to this problem.
     * Line-numbers in the browser traceback do not match the line-numbers
       in the source files, as per above.
 
@@ -208,3 +208,4 @@ insane. There is no practical alternatives -- learn to love the tools.
 [muratori-quality]: https://www.youtube.com/watch?v=6azav9sXK_4
 [1dv022]: https://coursepress.lnu.se/kurs/klientbaserad-webbprogrammering/
 [sass]: http://sass-lang.com/
+[sass-sourcemaps]: http://thesassway.com/intermediate/using-source-maps-with-sass
