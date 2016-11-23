@@ -15,6 +15,9 @@ author:
     facebook: jonasjbrg
     dribbble:
     instagram: jonasjberg
+    photo:
+        src: "img/jonas.jpg"
+        alt: "Photograph #nofilter #notmodified"
 
 url: https://jonasjberg.github.io
 baseurl: ""         # the subpath of your site, e.g. /blog/

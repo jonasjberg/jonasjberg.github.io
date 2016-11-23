@@ -5,45 +5,54 @@ layout: default
 <div class="home">
     <div class="about">
 
-        <h1 class="page-heading"><a href="{{ site.url }}">jonasjberg</a> is the
-            website of <em>Jonas Sjöberg</em></h1>
+        <h1 class="page-heading">
+            <a href="{{ site.url }}">{{ site.site }}</a> is the website of
+            <em>{{ site.author.fullname }}</em>
+        </h1>
 
-        <aside>
-            <img src="img/jonas.jpg" alt="Photograph #nofilter #notmodified">
+        <aside class="author-photo">
+            {% if site.author.photo.src and site.author.photo.alt %}
+                <img src="{{ site.author.photo.src }}"
+                     alt="{{ site.author.photo.alt }}">
+            {% endif %}
         </aside>
 
         <article class="about-content">
             <h2 id="present">Present</h2>
             <p>I am currently studying
-                <a href="http://udm-devops.se">Software Development and Operations</a>
-                at <a href="https://lnu.se/en/">Linnaeus University</a> full-time.</p>
-            <p>I am also employed as a <em>fixare</em> at <a href="https://hemfixare.se/">Hemfixare</a>,
-               a startup that provides technical support to households.</p>
+               <a href="http://udm-devops.se">Software Development and Operations</a>
+               at <a href="https://lnu.se/en/">Linnaeus University</a> full-time.</p>
+            <p>I am also employed as a <em>fixare</em> at
+               <a href="https://hemfixare.se/">Hemfixare</a>, a startup that
+                provides technical support to households.</p>
 
             <h2 id="past">Past</h2>
-            <p>I have some background in electronics engineering --- I've been a
-                hobbyist on and off since I was a little kid. I also have some formal
-                education and <em>a lot</em> of practical experience in analog circuit design.
+            <p>I have some background in electronics engineering --- I've been
+               a hobbyist on and off since I was a little kid. I also have some
+               formal education and <em>a lot</em> of practical experience in
+               analog circuit design.
             </p>
-            <p>When I was about <code>0x0A</code> (10<sub>10</sub>) years old,
-                I installed games that I had created on the class computer in
-                school for everyone to play. I have been interested in various
-                kinds of programming for as long as I can remember.</p>
+            <p>When I was about <code>0x0A</code> years old, I installed games
+               that I had created on the class computer in school for everyone
+               to play. I have been interested in various kinds of programming
+               for as long as I can remember.</p>
 
             <h2 id="future">Future</h2>
             <p>I would like to work with software development or
-                electrical engineering --- preferably "close to the metal".
-                I'd really like to do UNIX system administration
-                and embedded systems development. </p>
+               electrical engineering --- preferably "close to the metal".
+               I'd really like to do UNIX system administration and embedded
+               systems development. Alternatively, I'd like to do analog circuit
+               design or something else in the realm of electrical engineering.
+            </p>
         </article>
     </div>
 
-    <aside class="preview-projects">
+    <aside class="preview-projects unimplemented">
         <h1>Projects</h1>
         <!-- TODO: Show select projects from "projects" page.  -->
     </aside>
 
-    <aside class="preview-posts">
+    <aside class="preview-posts unimplemented">
         <h1>Blog posts</h1>
         <!-- TODO: Show select blog posts.  -->
     </aside>

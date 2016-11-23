@@ -1,5 +1,5 @@
 /**
- * Reset some basic elements
+ * Reset some basic elements.
  */
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
@@ -8,8 +8,28 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
+/* Set `margin-bottom` to maintain vertical rhythm. */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+
+/* Mark unimplemented or "work in progress". */
+.unimplemented {
+    background-color: yellow;
+    display: none;
+
+    h1, h2, h3, h4, h5, h6,
+    p, blockquote, pre,
+    ul, ol, dl, figure, a {
+        text-decoration: line-through;
+    }
+}
+
 /**
- * Basic styling
+ * Base styling.
  */
 body {
     font-family: $base-font-family;
@@ -21,27 +41,11 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
-}
-
-/**
- * Images
- */
 img {
     max-width: 100%;
     vertical-align: middle;
 }
 
-/**
- * Figures
- */
 figure > img {
     display: block;
 }
@@ -50,9 +54,6 @@ figcaption {
     font-size: $font-size-small;
 }
 
-/**
- * Lists
- */
 ul, ol {
     margin-left: $spacing-unit;
 }
@@ -64,9 +65,6 @@ li {
     }
 }
 
-/**
- * Headings
- */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     margin-bottom: $spacing-unit / 6;
@@ -79,9 +77,6 @@ h4 { font-size: $h4-font-size; }
 h5 { font-size: $h5-font-size; }
 h6 { font-size: $h6-font-size; }
 
-/**
- * Links
- */
 a {
     color: $brand-color;
     text-decoration: none;
@@ -93,9 +88,6 @@ a {
     }
 }
 
-/**
- * Blockquotes
- */
 blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
@@ -136,7 +128,7 @@ pre {
 }
 
 /**
- * Wrapper
+ * Utility.
  */
 .wrapper {
     max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
