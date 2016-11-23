@@ -183,3 +183,12 @@ pre {
         }
     }
 }
+
+/**
+ * Mixins
+ */
+@mixin rounded($radius: 0.25em) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}

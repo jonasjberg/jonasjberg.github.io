@@ -42,7 +42,22 @@
         display: none;
     }
 
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+        margin: 0 0.25em;
+        padding: 0;
+    }
+
     .page-link {
+        @include rounded(0.2em);
+        display: inline-block;
+        font-size: $font-size-menu;
         color: $text-color;
         font-weight: 500;
         line-height: $base-line-height;
@@ -106,8 +121,17 @@
         }
 
         .page-link {
-            display: block;
             padding: 5px 10px;
+        }
+
+        ul {
+            /*margin: 5px;*/
+        }
+
+        li {
+            display: block;
+            line-height: $base-line-height;
+            text-align: right;
         }
     }
 }
@@ -250,8 +274,6 @@
 }
 
 .page-link {
-    display: inline-block;
-    font-size: $font-size-big;
 }
 
 .page-header {
