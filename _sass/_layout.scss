@@ -23,9 +23,14 @@
     margin-bottom: 0;
     float: left;
 
-    &,
-    &:visited {
-        color: $grey-color-dark;
+    a {
+        &,
+        &:visited {
+            color: $grey-color-dark;
+        }
+        &:hover {
+            text-decoration: none;
+        }
     }
 }
 
