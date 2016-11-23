@@ -8,11 +8,12 @@ permalink: /cv/
 
     <h1 class="page-heading">Curriculum vitae</h1>
     <p>TODO: Import CV from LaTeX source .. </p>
+
     <h2>Education</h2>
     <h3>Current</h3>
     <p>TODO: Describe current education ..</p>
 
-    <h3>Courses</h3>
+    <h3 class="unimplemented">Courses</h3>
     <!--<ul>-->
         <!--{% for course in site.data.courses %}-->
             <!--<l>[{{ course.code }}] {{ course.name }}</l>-->
@@ -24,9 +25,9 @@ permalink: /cv/
             <h4>{{ course.code }} {{ course.name }}</h4>
             <span class="_cv_school">{{ course.school }}</span>
             <span class="_cv_coursedate">{{ course.date }}</span>
+
             <h5>Description</h5>
             <p class="_cv_description">{{ course.desc }}</p>
-
         </div>
     {% endfor %}
 
@@ -38,11 +39,10 @@ permalink: /cv/
             <h4>{{ job.name }}</h4>
             <span class="_cv_job-role">{{ job.role }}</span>
             <span class="_cv_job-date">{{ job.date.start }} &mdash; {{ job.date.end }}</span>
+
             <h5>Description</h5>
             <p class="_cv_description">{{ job.desc }}</p>
         </div>
     {% endfor %}
-
-
 
 </div>
