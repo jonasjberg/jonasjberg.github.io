@@ -25,6 +25,9 @@ Tools
 -----
 So much has been written about this already. Oh my, there are
 [so many tools][mozilla-webapp] in use.
+This blog posts sums up the experience pretty well, I think:
+["How it feels to learn JavaScript in 2016" by Jose Aguinaga][medium-learn-js-2016]
+
 
 These _tools_ are programs, frameworks, languages ---
 abstractions built upon abstractions; with seemingly infinite recursion,
@@ -209,3 +212,4 @@ insane. There is no practical alternatives -- learn to love the tools.
 [1dv022]: https://coursepress.lnu.se/kurs/klientbaserad-webbprogrammering/
 [sass]: http://sass-lang.com/
 [sass-sourcemaps]: http://thesassway.com/intermediate/using-source-maps-with-sass
+[medium-learn-js-2016]: https://medium.com/@jjperezaguinaga/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.758uh588b
