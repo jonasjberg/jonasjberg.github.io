@@ -23,18 +23,16 @@ First, some thoughts on developing content for the web.
 
 Tools
 -----
-So much has been written about this already. Oh my, there are
-[so many tools][mozilla-webapp] in use.
+So much has been written about this already. Oh my, there are [so many
+tools][mozilla-webapp] in use.  These _tools_ are programs, frameworks,
+languages --- abstractions built upon abstractions; with seemingly infinite
+recursion, to make development faster and easier.
+
 This blog posts sums up the experience pretty well, I think:
 ["How it feels to learn JavaScript in 2016" by Jose Aguinaga][medium-learn-js-2016]
 
-
-These _tools_ are programs, frameworks, languages ---
-abstractions built upon abstractions; with seemingly infinite recursion,
-to make development faster and easier.
-
-The insane amount of tools and frameworks available in the web
-development world makes navigating around them difficult.
+The insane amount of tools and frameworks available in the web development
+world makes navigating around them difficult.
 
 Tradeoffs
 ---------
