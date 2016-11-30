@@ -2,9 +2,9 @@
   name: 'Project methodology'
   school: 'Högskolan i Gävle'
   topic: 'Industrial Economy and organization'
-  url: ''
-  desc: 'Research, information processing. Group projects. Quality, time and cost in collaborative projects.'
-  date: '2013-11-13'
+  url: 'http://utb.hig.se/fafne/app/public/pdf/jasper/course.pdf?identifier=IE720A'
+  desc: 'Research, information processing. Group projects. Quality, time and
+         cost in collaborative projects.'
   date:
     start: ''
     end: '2013-11-13'
@@ -14,9 +14,10 @@
   name: 'Computers and Software Engineering'
   school: 'Högskolan i Gävle'
   topic: 'Computer Science'
-  url: ''
-  desc: 'General computer science and software engineering overview. Designed and built a robot control system with client software written in Java,
-         hardware platform with an embedded system running on C+ interfaces
+  url: 'http://www.hig.se/4.12fae2dd1280959bf1c80002450.html?identifier=DVG009'
+  desc: 'General computer science and software engineering overview. Designed
+         and built a robot control system with client software written in Java,
+         hardware platform with an embedded system running on C++ interfaces
          to the robot. All hardware and software designed from scratch.'
   date:
     start: ''
@@ -27,7 +28,7 @@
   name: 'Logic systems'
   school: 'Högskolan i Gävle'
   topic: 'Electronics'
-  url: ''
+  url: 'http://utb.hig.se/fafne/app/public/pdf/jasper/course.pdf?identifier=EEG002'
   desc: 'Digital logic circuit design, simulation and prototyping/construction.'
   date:
     start: ''
@@ -38,7 +39,7 @@
   name: 'Basic Programming in Java'
   school: 'Högskolan i Gävle'
   topic: 'Computer Science'
-  url: ''
+  url: 'http://www.hig.se/Ext/En/University-of-Gavle/Education/Courses/Course-description.html?identifier=DV017A'
   desc: 'Programming and problem solving using Java.'
   date:
     start: ''
@@ -49,7 +50,7 @@
   name: 'Introduction to Linux and Small Networks'
   school: 'Högskolan i Gävle'
   topic: 'Computer Science'
-  url: ''
+  url: 'http://www.hig.se/Ext/En/University-of-Gavle/Education/Courses/Course-description.html?identifier=DVG001'
   desc: 'Network administration; setup, configuration and maintenance of a
          Linux server virtual machine. The server was online and allowed for
          remote SSH connections by the course administration.
@@ -63,7 +64,7 @@
   name: 'Electric Circuits'
   school: 'Högskolan i Gävle'
   topic: 'Electronics'
-  url: ''
+  url: 'http://www.hig.se/Ext/En/University-of-Gavle/Education/Courses/Course-description.html?identifier=EE466A'
   desc: 'Linear network analysis. Circuit analysis, theory and design.'
   date:
     start: ''
@@ -74,7 +75,7 @@
   name: 'Computer Security'
   school: 'Linköpings Universitet'
   topic: 'Electrical Engineering'
-  url: ''
+  url: 'https://liu.se/utbildning/kurs/ETE311/'
   desc: 'Security analysis, identification and classification of threats and
          vulnerabilities. Cryptography, network security, access control.'
   date:
