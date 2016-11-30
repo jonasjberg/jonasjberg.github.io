@@ -51,7 +51,7 @@ sacrifice for ease and speed of development. Casey Muratori says this
 very eloquently [here][muratori-quality].
 
 I think he has makes some good points and argues for them very well.
-Even if you disagree, it is still worth a listen.
+Even if you disagree, it is still [worth a listen][muratori-quality].
 
 
 However
@@ -115,15 +115,12 @@ So, my points are these:
 
 1. Smart programmers are bound to write tools because they are lazy
    and/or engineers (have the engineering mindset)
-
 2. Tools have characteristics -- these fall somewhere along a linear
    axis with endpoints "good" and "bad", depending on context.
-
 3. Use of tools comes with context-dependent costs.
-
 4. Modern web development practices _might not_ have been developed
    with a overarching mission and obligation to produce performant,
-   high quality code. Not saying it isn't, just that it _might_ not be.
+   high quality code. Not saying it won't, just that it _might_ not.
 
 
 First impressions
@@ -169,59 +166,56 @@ pre-processors.
 
 Pros and cons
 =============
-As with everything else, there are both pros and cons:
+As with everything else, there are pros and cons:
 
 ### Pros
 
-* Ease of development
+* __Ease of development__
     * All kinds of "[syntactic sugar][wiki-syntactic-sugar]".
-
     * Less repetition -- variables and other means of abstraction
       enables encapsulation of concepts for later reuse.
-
     * Simpler calculation -- evaluation of expressions with variable
       arithmetic, as well as other expressions means less error-prone,
       manual work.
 
-* Maintainability
-    * All kinds of "[syntactic sugar][wiki-syntactic-sugar]".
-
+* __Maintainability__
+    * Again, the added "[syntactic sugar][wiki-syntactic-sugar]" can
+      help improve human comprehension.
     * Modularizing by splitting into multiple files.
-        * Styles for huge websites probably grows unwieldy with time,
-          splitting limits file sizes, both on disk and monitor space.
-
-        * Code re-use -- common parts can be extracted into separate
+        * __Code re-use__ -- common parts can be extracted into separate
           files for re-use across multiple projects.
-
-        * Collaboration -- version control systems often handle multiple
+        * __Collaboration__ -- version control systems often handle multiple
           smaller files better than one very big file. Also, solving
           merge conflicts in small files seems easier somehow..
+        * __Scale__ -- huge websites means huge source files and
+          splitting limits file sizes, both on disk and monitor space.
 
-* "Compiled" result
+* __"Compiled" result__
     * The final source files that are used in production are generated
       by some kind of compiler, which means their structure and contents
       can be controlled in a separate process.
-    * Multiple files and above points must not necessarily mean poor
+    * Multiple files and above points must not *necessarily* mean poor
       performance or increased bandwidth requirements -- the "compiler"
       can be modified to counteract such problems.
 
 ### Cons
 
-* Debugging
+* __Debugging__
     * The code you write is different from what the browser renders.
       This can make debugging a bit more difficult, but there are
       [solutions][sass-sourcemaps] to this problem.
     * Line-numbers in the browser traceback do not match the line-numbers
       in the source files, as per above.
 
-* Complexity
+* __Complexity__
     * Requires tools to compile the source files to plain CSS.
     * Site must be rebuilt in order to see changes. Risk becoming very slow for
       big projects with a lot of dependencies.
 
-* Compilation
+* __Compilation__
     * Resulting CSS-files could be smaller and more optimized.
-      Compiler might do the very best thing 99% of the time, but..
+      Compiler might do the very best thing 99% of the time but then
+      again, it might not.
     * Requires trust that the pre-processor does what is needed for the
       project. What if some feature is missing or the generated CSS is messed
       up? Get the pre-processor source code and dig in..
@@ -239,7 +233,7 @@ insane. There is no practical alternatives -- learn to love the tools.
 
 
 
-(.. I do not enjoy web development.)
+*(.. I do not enjoy web development ..)*
 
 
 
