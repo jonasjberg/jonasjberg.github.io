@@ -40,7 +40,7 @@ Tradeoffs
 buggy and take so long to load. [Some might say][muratori-quality]
 sending _plain text_ over the internet is a problem solved way back in
 the 1970s. But even with contemporary computing power, much of modern
-software performs very bad.
+software performs __very badly__.
 
 [Casey argues][muratori-quality] that _code quality_ isn't prioritized
 -- beating the competition to market with a "good enough" product is
@@ -50,16 +50,20 @@ Insanely slow and often buggy code seems to be considered a worthwhile
 sacrifice for ease and speed of development. Casey Muratori says this
 very eloquently [here][muratori-quality].
 
+I think he has makes some good points and argues for them very well.
+Even if you disagree, it is still worth a listen.
+
+
 However
 -------
 Getting to know the modern web development workflow and methodologies
 is *very interesting* and worthwhile. Even though I have no interest
-in pursuing a career in any kind of web development, the web is
-unavoidable at this point.
-Even as an electronics engineer, basic knowledge of scripting languages,
-html and CSS can help improve throughput.
-At the very least, the ability to maintain a strong online presence has
-become very important when hunting for employment..
+in pursuing a career doing web development, the web is unavoidable at
+this point.
+Even as an electronics engineer, basic knowledge of scripting
+languages, HTML and CSS can help improve throughput. At the very least,
+the ability to maintain a strong online presence has become very
+important when hunting for employment..
 
 
 CSS Pre-Processors
@@ -104,7 +108,23 @@ does more than simple pattern-matching replacements.
 But my point is that the tools are a natural extension of underlying
 languages. And if CSS pre-processors wasn't a thing yet and my day job
 involved editing a lot of CSS-files, I'd probably start collecting
-useful snippets of simple code into something like my own pre-processor.
+useful snippets of simple code. With time and refinement, these simple
+snippets might evolve into the start of a very own pre-processor.
+
+So, my points are these:
+
+1. Smart programmers are bound to write tools because they are lazy
+   and/or engineers (have the engineering mindset)
+
+2. Tools have characteristics -- these fall somewhere along a linear
+   axis with endpoints "good" and "bad", depending on context.
+
+3. Use of tools comes with context-dependent costs.
+
+4. Modern web development practices _might not_ have been developed
+   with a overarching mission and obligation to produce performant,
+   high quality code. Not saying it isn't, just that it _might_ not be.
+
 
 First impressions
 =================
@@ -154,19 +174,36 @@ As with everything else, there are both pros and cons:
 ### Pros
 
 * Ease of development
-    * Less repetition
-    * Does calculations
+    * All kinds of "[syntactic sugar][wiki-syntactic-sugar]".
+
+    * Less repetition -- variables and other means of abstraction
+      enables encapsulation of concepts for later reuse.
+
+    * Simpler calculation -- evaluation of expressions with variable
+      arithmetic, as well as other expressions means less error-prone,
+      manual work.
 
 * Maintainability
-    * Modularizing by splitting into multiple files
+    * All kinds of "[syntactic sugar][wiki-syntactic-sugar]".
 
-* Collaboration
-    * Version control systems often handle many smaller files
-      better than one big file, think merge-conflicts.
+    * Modularizing by splitting into multiple files.
+        * Styles for huge websites probably grows unwieldy with time,
+          splitting limits file sizes, both on disk and monitor space.
 
-* Code re-use
-    * Common parts can be extracted into separate files for re-use
-      across multiple projects.
+        * Code re-use -- common parts can be extracted into separate
+          files for re-use across multiple projects.
+
+        * Collaboration -- version control systems often handle multiple
+          smaller files better than one very big file. Also, solving
+          merge conflicts in small files seems easier somehow..
+
+* "Compiled" result
+    * The final source files that are used in production are generated
+      by some kind of compiler, which means their structure and contents
+      can be controlled in a separate process.
+    * Multiple files and above points must not necessarily mean poor
+      performance or increased bandwidth requirements -- the "compiler"
+      can be modified to counteract such problems.
 
 ### Cons
 
@@ -200,7 +237,9 @@ staggering.
 Working solely with plain html and CSS to produce modern websites to would be
 insane. There is no practical alternatives -- learn to love the tools.
 
-.. I do not enjoy web development.
+
+
+(.. I do not enjoy web development.)
 
 
 
@@ -211,3 +250,4 @@ insane. There is no practical alternatives -- learn to love the tools.
 [sass]: http://sass-lang.com/
 [sass-sourcemaps]: http://thesassway.com/intermediate/using-source-maps-with-sass
 [medium-learn-js-2016]: https://medium.com/@jjperezaguinaga/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f#.758uh588b
+[wiki-syntactic-sugar]: https://en.wikipedia.org/wiki/Syntactic_sugar

@@ -37,7 +37,7 @@ other literature. The author can concentrate on the content alone,
 without having to think about formatting the text as it is entered. It
 also makes for more __consistent styling and formatting__ of documents.
 
-More on this in an upcoming post ..
+*More on this in an upcoming post ..*
 
 Static Site Generators
 ======================
@@ -173,15 +173,15 @@ up over many files in a complex structure, while still keeping the
 generatated website structure simple and compact.
 
 The content is authored in your favorite text editor. Simple _markdown_ syntax
-adds markup to the text. 
+adds markup to the text.
 
 
 ### Jekyll
-There are __a lot__ of static site generators to choose from. 
+There are __a lot__ of static site generators to choose from.
 [`Jekyll`][jekyll] is a popular choice. It is written and Ruby, is open source
 and integrates nicely with GitHub pages.
 
-Jekyll can be configured to watch for changes to the site. When the 
+Jekyll can be configured to watch for changes to the site. When the
 markdown source files are saved to disk, the entire site is rebuilt from
 scratch in (hopefully) a couple of hundred milliseconds.
 This means that the website is continously updated as the content is authored,
