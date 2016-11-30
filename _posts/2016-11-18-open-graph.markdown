@@ -14,14 +14,16 @@ University in Kalmar.
 
 What is Open Graph?
 ===================
-This is an overview of the metadata _standard_
-[The Open Graph Protocol][opengraph].
+This is a brief overview of [The Open Graph Protocol][opengraph],
+a metadata _standard_ created by Facebook.
 
 Facebook supremacy
 ------------------
 Open Graph was created by Facebook in 2010. It is part of their plan
 for world domination by embedding proprietary code in basically
 _every, single, webpage_ ..
+This is an interesting read on contemporary trends and use of the
+internet: ["The Myth of Openness"][floss-myth].
 
 Excerpt from ["What You Need to Know About Open Graph Meta Tags for Total Facebook and Twitter Mastery"][kissmetrics]:
 
@@ -121,3 +123,4 @@ Jekyll templates that included support for Open Graph.
 [milanaryal]: https://milanaryal.com/integrating-social-meta-tags-into-jekyll/
 [vrepin]: http://vrepin.org/vr/JekyllMeta/
 [davidensinger]: http://davidensinger.com/2013/04/adding-open-graph-tags-to-jekyll/
+[floss-myth]: http://write.flossmanuals.net/an-open-web/the-myth-of-openness/
