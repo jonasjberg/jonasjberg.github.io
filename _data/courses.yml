@@ -1,6 +1,6 @@
 - code: 'IE720A'
   name: 'Project methodology'
-  school: 'Högskolan i Gävle'
+  institution: 'Högskolan i Gävle'
   topic: 'Industrial Economy and organization'
   url: 'http://utb.hig.se/fafne/app/public/pdf/jasper/course.pdf?identifier=IE720A'
   desc: 'Research, information processing. Group projects. Quality, time and
@@ -12,7 +12,7 @@
 
 - code: 'DV009A'
   name: 'Computers and Software Engineering'
-  school: 'Högskolan i Gävle'
+  institution: 'Högskolan i Gävle'
   topic: 'Computer Science'
   url: 'http://www.hig.se/4.12fae2dd1280959bf1c80002450.html?identifier=DVG009'
   desc: 'General computer science and software engineering overview. Designed
@@ -26,7 +26,7 @@
 
 - code: 'EEG002'
   name: 'Logic systems'
-  school: 'Högskolan i Gävle'
+  institution: 'Högskolan i Gävle'
   topic: 'Electronics'
   url: 'http://utb.hig.se/fafne/app/public/pdf/jasper/course.pdf?identifier=EEG002'
   desc: 'Digital logic circuit design, simulation and prototyping/construction.'
@@ -37,7 +37,7 @@
 
 - code: 'DV017A'
   name: 'Basic Programming in Java'
-  school: 'Högskolan i Gävle'
+  institution: 'Högskolan i Gävle'
   topic: 'Computer Science'
   url: 'http://www.hig.se/Ext/En/University-of-Gavle/Education/Courses/Course-description.html?identifier=DV017A'
   desc: 'Programming and problem solving using Java.'
@@ -48,7 +48,7 @@
 
 - code: 'DVG001'
   name: 'Introduction to Linux and Small Networks'
-  school: 'Högskolan i Gävle'
+  institution: 'Högskolan i Gävle'
   topic: 'Computer Science'
   url: 'http://www.hig.se/Ext/En/University-of-Gavle/Education/Courses/Course-description.html?identifier=DVG001'
   desc: 'Network administration; setup, configuration and maintenance of a
@@ -62,7 +62,7 @@
 
 - code: 'EE466A'
   name: 'Electric Circuits'
-  school: 'Högskolan i Gävle'
+  institution: 'Högskolan i Gävle'
   topic: 'Electronics'
   url: 'http://www.hig.se/Ext/En/University-of-Gavle/Education/Courses/Course-description.html?identifier=EE466A'
   desc: 'Linear network analysis. Circuit analysis, theory and design.'
@@ -73,7 +73,7 @@
 
 - code: 'ETE311'
   name: 'Computer Security'
-  school: 'Linköpings Universitet'
+  institution: 'Linköpings Universitet'
   topic: 'Electrical Engineering'
   url: 'https://liu.se/utbildning/kurs/ETE311/'
   desc: 'Security analysis, identification and classification of threats and
