@@ -5,6 +5,9 @@
   url: ''
   desc: 'Research, information processing. Group projects. Quality, time and cost in collaborative projects.'
   date: '2013-11-13'
+  date:
+    start: ''
+    end: '2013-11-13'
   hidden: 0
 
 - code: 'DV009A'
@@ -15,7 +18,9 @@
   desc: 'General computer science and software engineering overview. Designed and built a robot control system with client software written in Java,
          hardware platform with an embedded system running on C+ interfaces
          to the robot. All hardware and software designed from scratch.'
-  date: '2014-01-16'
+  date:
+    start: ''
+    end: '2014-01-16'
   hidden: 0
 
 - code: 'EEG002'
@@ -24,7 +29,9 @@
   topic: 'Electronics'
   url: ''
   desc: 'Digital logic circuit design, simulation and prototyping/construction.'
-  date: '2014-02-05'
+  date:
+    start: ''
+    end: '2014-02-05'
   hidden: 0
 
 - code: 'DV017A'
@@ -33,7 +40,9 @@
   topic: 'Computer Science'
   url: ''
   desc: 'Programming and problem solving using Java.'
-  date: '2015-08-21'
+  date:
+    start: ''
+    end: '2015-08-21'
   hidden: 0
 
 - code: 'DVG001'
@@ -43,8 +52,11 @@
   url: ''
   desc: 'Network administration; setup, configuration and maintenance of a
          Linux server virtual machine. The server was online and allowed for
-         remote SSH connections by the course administration. Focus on security.'
-  date: '2016-06-15'
+         remote SSH connections by the course administration.
+         Focus on security and low level networking.'
+  date:
+    start: '2016-01-22'
+    end: '2016-06-15'
   hidden: 0
 
 - code: 'EE466A'
@@ -53,7 +65,9 @@
   topic: 'Electronics'
   url: ''
   desc: 'Linear network analysis. Circuit analysis, theory and design.'
-  date: '2016-01-18'
+  date:
+    start: ''
+    end: '2016-01-18'
   hidden: 0
 
 - code: 'ETE311'
@@ -63,6 +77,8 @@
   url: ''
   desc: 'Security analysis, identification and classification of threats and
          vulnerabilities. Cryptography, network security, access control.'
-  date: '2016-06-12'
+  date:
+    start: ''
+    end: '2016-06-12'
   hidden: 0
 
