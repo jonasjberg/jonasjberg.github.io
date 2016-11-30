@@ -54,8 +54,8 @@ I think he has makes some good points and argues for them very well.
 Even if you disagree, it is still [worth a listen][muratori-quality].
 
 
-However
--------
+That said
+---------
 Getting to know the modern web development workflow and methodologies
 is *very interesting* and worthwhile. Even though I have no interest
 in pursuing a career doing web development, the web is unavoidable at
