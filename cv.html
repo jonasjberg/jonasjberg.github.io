@@ -23,6 +23,10 @@ permalink: /cv/
     <!--</ul>-->
 
     {% for course in site.data.courses %}
+        {% if course.hidden %}
+            {% continue %}
+        {% endif %}
+
         <div class="_cv_course">
             <h4>{{ course.code }} {{ course.name }}</h4>
             <span class="_cv_school">{{ course.school }}</span>
@@ -37,6 +41,10 @@ permalink: /cv/
     <h2>Work experience</h2>
 
     {% for job in site.data.jobs %}
+        {% if job.hidden %}
+            {% continue %}
+        {% endif %}
+
         <div class="_cv_job">
             <h4>{{ job.name }}</h4>
             <span class="_cv_job-role">{{ job.role }}</span>
