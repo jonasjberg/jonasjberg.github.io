@@ -11,7 +11,8 @@ $base-font-family: "Bitter", Georgia, Constantia, "Lucida Bright",
                    Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", serif;
 $alt-font-family: "Droid Serif", Georgia, serif;
 $mono-font-family: "Ubuntu Mono", "Liberation Mono", Monospaced, Monospace;
-$menu-font-family: "PT Serif", serif;
+/*$menu-font-family: "PT Serif", serif;*/
+$menu-font-family: $alt-font-family;
 
 $font-size-base:          16px;
 $font-size-smaller:       $font-size-base * 0.825;
