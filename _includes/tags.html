@@ -8,6 +8,7 @@
     <ul id="tag-collection">
         {% for tag in (tag_words) %}
             <li>
+                <i class="fa fa-tag" aria-hidden="true"></i>
                 <a href="#{{ tag | cgi_escape }}">{{ tag }} <span class="tag-collection-count">{{ site.tags[tag] | size }}</span></a>
             </li>
         {% endfor %}
@@ -18,7 +19,7 @@
         {% for item in (0..site.tags.size) %}
             {% unless forloop.last %}
                 {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-                <h3 id="{{ this_word | cgi_escape }}">{{ this_word }}</h3>
+                <h3 id="{{ this_word | cgi_escape }}"><i class="fa fa-tag" aria-hidden="true"></i> {{ this_word }}</h3>
                 <ul class="posts">
                     {% for post in site.tags[this_word] %}
                         {% if post.title != null %}

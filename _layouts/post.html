@@ -22,9 +22,9 @@ layout: default
         <h3 class="post-tags">Tags</h3>
         <span class="entry-tags">
             {% for tag in page.tags %}
+                <i class="fa fa-tag" aria-hidden="true"></i>
                 <a href="{{ site.baseurl }}/blog/#{{ tag | cgi_escape }}"
                    title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>
-            {% unless forloop.last %} &bull; {% endunless %}
             {% endfor %}
         </span>
     </header>
