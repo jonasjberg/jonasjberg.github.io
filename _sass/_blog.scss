@@ -68,9 +68,7 @@
     }
 
     h1, h2, h3, h4 {
-        border-bottom: solid;
-        border-bottom-color: $grey-color-light;
-        border-bottom-width: thin;
+        border-bottom: thin solid $grey-color-light;
     }
 }
 
@@ -139,6 +137,12 @@
 .post-link {
     font-size: $font-size-big;
     vertical-align: top;
+}
+
+.post-comments {
+    padding-top: 0.5em;
+    margin-top: 2.5em;
+    border-top: medium solid $grey-color;
 }
 
 #tag-collection {
