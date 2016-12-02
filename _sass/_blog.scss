@@ -104,6 +104,7 @@
             font-size: $font-size-bigger;
             float: right;
             width: 50%;
+            font-family: $alt-font-family;
 
             @include media-query($on-laptop) {
                 float: none;
