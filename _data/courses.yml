@@ -8,7 +8,7 @@
   date:
     start: ''
     end: '2013-11-13'
-  hidden: 0
+  hidden:
 
 - code: 'DV009A'
   name: 'Computers and Software Engineering'
@@ -22,7 +22,7 @@
   date:
     start: ''
     end: '2014-01-16'
-  hidden: 0
+  hidden:
 
 - code: 'EEG002'
   name: 'Logic systems'
@@ -33,7 +33,7 @@
   date:
     start: ''
     end: '2014-02-05'
-  hidden: 0
+  hidden:
 
 - code: 'DV017A'
   name: 'Basic Programming in Java'
@@ -44,7 +44,7 @@
   date:
     start: ''
     end: '2015-08-21'
-  hidden: 0
+  hidden:
 
 - code: 'DVG001'
   name: 'Introduction to Linux and Small Networks'
@@ -58,7 +58,7 @@
   date:
     start: '2016-01-22'
     end: '2016-06-15'
-  hidden: 0
+  hidden:
 
 - code: 'EE466A'
   name: 'Electric Circuits'
@@ -69,7 +69,7 @@
   date:
     start: ''
     end: '2016-01-18'
-  hidden: 0
+  hidden:
 
 - code: 'ETE311'
   name: 'Computer Security'
@@ -81,5 +81,17 @@
   date:
     start: ''
     end: '2016-06-12'
-  hidden: 0
+  hidden:
 
+- code: '1DV021'
+  name: 'Introduction to Programming'
+  institution: 'Linnaeus University'
+  topic: 'Computer Science'
+  url: 'http://kursplan.lnu.se/kursplaner/kursplan-1DV021-1.pdf'
+  desc: 'Introductory course in modern programming using JavaScript. Focus
+         on practical skills and use of IDEs and related tools/frameworks such
+         as test runners, version control, third party modules, etc.'
+  date:
+    start: '2016-09-29'
+    end: '2016-10-27'
+  hidden:

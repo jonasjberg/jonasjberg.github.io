@@ -1,52 +1,22 @@
-._cv_course {
-
-    margin-bottom: 1em;
-
-    ._cv_coursedate {
-        /*display: inline-block;*/
-        float: right;
-    }
-
-    ._cv_institution {
-        display: inline;
-        float: left;
-    }
-
+.cv {
     ._cv_description {
-
+        font-size: $font-size-small;
+        color: $grey-color-dark;
+        margin-top: 0.25em;
     }
 
-    h4 {
-        padding: 0;
-        margin: 0;
-        border-bottom-style: solid;
-        border-bottom-width: 0.025em;
-        border-bottom-color: $grey-color;
-    }
-    h5 {
-        visibility: hidden;
-    }
-}
-
-._cv_job {
-
-    margin-bottom: 1em;
-
-    ._cv_job-date {
-        /*display: inline-block;*/
+    ._cv_date {
+        display: block;
         float: right;
+        color: $grey-color-dark;
     }
 
-    ._cv_job-role {
-        display: inline;
-        float: left;
+    ._cv_code {
+        font-family: $mono-font-family;
+        margin-right: 0.4em;
     }
 
-    ._cv_description {
-
-    }
-
-    h4 {
+    h3 {
         /*display: inline-block;
         max-width: 50%;*/
         padding: 0;
@@ -55,8 +25,23 @@
         border-bottom-width: 0.025em;
         border-bottom-color: $grey-color;
     }
-    h5 {
-        visibility: hidden;
+}
+
+._cv_course {
+    margin-bottom: 1.5em;
+
+    ._cv_institution {
+        /*display: inline;*/
+        /*float: left;*/
+    }
+}
+
+._cv_job {
+    margin-bottom: 1em;
+
+    ._job_role {
+        /*display: inline;*/
+        float: left;
     }
 }
 

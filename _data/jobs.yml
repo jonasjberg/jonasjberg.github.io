@@ -1,4 +1,4 @@
-- name: 'Consulting'
+- name: 'Engineering consultant'
   desc: 'Freelance and consulting in primarily electronics design, construction
          and repair. Complete products from specifications/ideas; through
          design, prototyping and construction; including simulation,
@@ -13,7 +13,7 @@
   date:
     start: 2010
     end: 2016
-  hidden: 0
+  hidden:
 
 - name: 'KS Musik'
   desc: 'Music store sales. Also repair and servicing of musical instruments
@@ -28,7 +28,7 @@
   date:
     start: 2008
     end: 2009
-  hidden: 0
+  hidden:
 
 - name: 'Medborgarskolan'
   desc: 'Guitar teacher for kids, teens and adults. Electric and acoustic guitar.'
@@ -39,7 +39,7 @@
   date:
     start: 2007
     end: 2008
-  hidden: 0
+  hidden:
 
 - name: 'Syntronic'
   desc: 'Assembly and various tasks related to electronics production.'
