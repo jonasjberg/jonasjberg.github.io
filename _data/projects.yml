@@ -1,0 +1,18 @@
+- code: 'pllmnstr'
+  name: 'PLL-monstret'
+  desc: 'Description of project goes here.. '
+  url:
+  tags:
+    - electronics
+    - hardware
+    - development
+    - modification
+    - 'embedded systems'
+    - 'analog signal processing'
+    - 'guitar effects'
+  date:
+    start: 2010
+    end: 2016
+  photos:
+    - ''
+  hidden:
