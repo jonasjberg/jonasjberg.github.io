@@ -165,7 +165,7 @@ pre-processors.
 
 
 Pros and cons
-=============
+-------------
 As with everything else, there are pros and cons:
 
 ### Pros

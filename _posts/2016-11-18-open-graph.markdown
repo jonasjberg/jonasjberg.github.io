@@ -94,7 +94,7 @@ contained in individual pages/posts; _before_ setting the Open Graph metadata.
 There is also a couple of fallbacks for the cases where some field
 isn't defined.
 
-o example of this is image metadata -- if a blog post specifies an URL
+Another example of this is image metadata -- if a blog post specifies an URL
 to a image in its YAML front matter data, it is added to the Open Graph
 metadata. And if the blog post does not specify an image, a fallback
 image defined in the site configuration file is substituted in its place.
@@ -103,7 +103,8 @@ The Open Graph code is kept in a separate file that can be inserted
 where applicable. This also makes future modifications and re-use much
 easier.
 
-### References
+References
+----------
 I followed a bunch of guides and referenced the source code for a couple of
 Jekyll templates that included support for Open Graph.
 

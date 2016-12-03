@@ -201,7 +201,8 @@ are available and so, most functionality already exists.
 Jekyll paired with the free hosting provided by [GitHub pages][github-pages]
 is a very popular blogging platform and I have no difficulty seeing why.
 
-### Continued reading
+Continued reading
+-----------------
 
 * ["Why Static Website Generators Are The Next Big Thing" by Mathias Biilmann Christensen][biilmann]
 * ["Static vs. Dynamic website design" by SpiderWriting Web Design][spiderwriting]
