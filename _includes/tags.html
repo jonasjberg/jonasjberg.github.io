@@ -14,7 +14,7 @@
         {% endfor %}
     </ul>
 
-    <h3>Posts sorted by tags</h3>
+    <h3 class="hidden">Posts sorted by tags</h3>
     <div id="posts-sorted-by-tag">
         {% for item in (0..site.tags.size) %}
             {% unless forloop.last %}
