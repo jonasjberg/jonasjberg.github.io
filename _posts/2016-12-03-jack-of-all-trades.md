@@ -10,7 +10,7 @@ image:  "https://farm4.staticflickr.com/3057/2383953694_49135a33f1_o_d.jpg"
 So there is this saying --- "[Jack of all trades, master of none][wiki-jacktrades]".
 
 And there is that humorous [image][knifeimage] of an extended swiss army knife
-pop up in my head from time to time. Apparently, there are unsurprisingly also
+that pops up in my head from time to time. Apparently, there are unsurprisingly also
 [real products][wenger] out there. Unsurprising things should not surprise me.
 
 And then there are those articles, blog posts and "news" about _just how long_
