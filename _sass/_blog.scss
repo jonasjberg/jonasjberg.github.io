@@ -2,6 +2,13 @@
     padding: $spacing-unit 0;
 }
 
+.blog {
+    h1 {
+        margin-top: $spacing-unit;
+        margin-bottom: $spacing-unit;
+    }
+}
+
 .post-header {
     margin-bottom: $spacing-unit;
 
@@ -16,19 +23,6 @@
         padding-right: 0.25em;
         line-height: $base-line-height * 1.125;
         vertical-align: baseline;
-
-        h3 {
-            display: inline;
-            font-size: $font-size-medium;
-            /*font-family: $mono-font-family;*/
-            margin-right: 0.25em;
-            color: $grey-color-dark;
-        }
-
-        /*        h3:after {
-                    content: ":";
-                    color: $grey-color-dark;
-                }*/
     }
 
     .entry-tags {
@@ -117,6 +111,7 @@
 .post-list {
     text-align: center;
     width: 100%;
+    padding-top: 0;
 
     ul {
         margin: 0;
@@ -186,14 +181,17 @@
 
 #tag-collection {
 
-    display: flex;
+    /*display: flex;*/
     justify-content: space-between;
     width: 100%;
     margin: 0;
+    margin-top: 1em;
     margin-bottom: 2em;
+    dispay: block;
 
     li {
-        display: inline;
+        display: inline-block;
+        white-space: nowrap;
         margin-right: 0.25em;
         list-style: none;
     }
@@ -216,7 +214,7 @@
 }
 
 .tags {
-    padding-top: 2em;
+    margin-bottom: 1em;
 }
 
 #posts-sorted-by-tag {

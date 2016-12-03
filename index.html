@@ -47,15 +47,23 @@ layout: default
         </article>
     </div>
 
-    <section class="preview-projects unimplemented">
+    <section class="site-section preview-projects unimplemented">
         <h1>Projects</h1>
-        <!-- TODO: Show select projects from "projects" page.  -->
+        {% for project in site.data.projects | limit: 4 %}
+            <li class="project">
+                <h2>{{ project.name }}</h2>
+                <span class="project-excerpt">{{ project.desc | strip_html | truncate: 200 }}</span>
+                <span class="project-page-link">
+                            <a href="{{ project.url | prepend: site.baseurl }}">Go to project.</a>
+                </span>
+            </li>
+        {% endfor %}
     </section>
 
     <section class="site-section preview-posts">
-        <h1>Latest blog posts</h1>
+        <h1 class="centered">Latest blog posts</h1>
 
-        <ul class="post-list">
+        <ul class="preview-post-list">
             {% for post in site.posts | limit: 4 %}
                 <li class="post">
                     <h2>{{ post.title }}</h2>

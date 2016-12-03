@@ -22,6 +22,13 @@
                             </a>
                         </li>
                     {% endif %}
+
+                    <li>
+                        <div id="rss-feed">
+                            <p class="rss-subscribe">Follow the blog
+                                <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>.</p>
+                        </div>
+                    </li>
                 </ul>
 
             </div>

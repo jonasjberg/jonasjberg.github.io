@@ -28,7 +28,7 @@ description: "Past blog posts on various subjects, sorted chronologically."
     <!-- tag_words: {{ tag_words }} -->
 
     <div class="tags">
-        <h2 class="centered">Tags</h2>
+        <h1 class="centered">Tagged posts</h1>
         <ul id="tag-collection">
             {% for tag in (tag_words) %}
             <li>
@@ -62,8 +62,9 @@ description: "Past blog posts on various subjects, sorted chronologically."
         </div>
     </div>
 
-    <h2>RSS feed</h2>
+    <div id="rss-feed">
     <p class="rss-subscribe">Subscribe
         <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS. </a></p>
+    </div>
 
 </div>
