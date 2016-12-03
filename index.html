@@ -52,8 +52,20 @@ layout: default
         <!-- TODO: Show select projects from "projects" page.  -->
     </section>
 
-    <section class="preview-posts unimplemented">
+    <section class="preview-posts">
         <h1>Blog posts</h1>
         <!-- TODO: Show select blog posts.  -->
+
+        <ul class="post-list">
+            {% for post in site.posts %}
+                <li class="post">
+                    <h2>{{ post.title }}</h2>
+                    <p>{{ post.content | strip_html | truncate: 200 }}</p>
+                    <p class="post-read-more-link">
+                        <a href="#">Read more..</a>
+                    </p>
+                </li>
+            {% endfor %}
+        </ul>
     </section>
 </div>
