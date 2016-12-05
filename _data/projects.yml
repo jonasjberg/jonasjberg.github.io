@@ -14,3 +14,18 @@
   photos:
     - ''
   hidden:
+
+- code: 'autonameow'
+  name: 'autonameow'
+  desc: 'Description of project goes here.. '
+  url:
+  tags:
+    - development
+    - python
+    - software
+  date:
+    start: 2016
+    end: 2016
+  photos:
+    - ''
+  hidden:
