@@ -7,11 +7,11 @@
             <div class="footer-col footer-col-1">
                 <ul class="contact-list">
                     {% if site.author.fullname %}
-                        <li>{{ site.author.fullname }}</li>
+                        <li>&copy; {{ site.time | date: '%Y' }} {{ site.author.fullname }}</li>
                     {% endif %}
 
                     {% if site.author.location %}
-                        <li>{{ site.author.location }}</li>
+                        <li>Made in {{ site.author.location }}</li>
                     {% endif %}
 
                     {% if site.author.email %}
