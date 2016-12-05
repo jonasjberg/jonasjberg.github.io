@@ -20,11 +20,11 @@
 
         &:nth-child(odd) {
             clear: both;
-            padding-right: 0.5em;
+            padding-right: 1em;
         }
 
         &:nth-child(even) {
-            padding-left: 0.5em;
+            padding-left: 1em;
         }
 
         @include media-query($on-laptop) {
