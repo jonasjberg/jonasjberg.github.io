@@ -93,7 +93,7 @@
     line-height: 1;
 
     @include media-query($on-laptop) {
-        font-size: $font-size-huge;
+        font-size: $font-size-insane * 0.75;
     }
 }
 
