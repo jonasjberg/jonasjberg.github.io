@@ -19,9 +19,9 @@ author:
         src: "img/jonas.jpg"
         alt: "Photograph #nofilter #notmodified"
 
-url: https://jonasjberg.github.io
+url: http://www.jonasjberg.com
 baseurl: ""         # the subpath of your site, e.g. /blog/
-site: jonasjberg.github.io
+site: jonasjberg.com
 
 
 defaultimage: "https://avatars0.githubusercontent.com/u/5494704?v=3&s=460"
