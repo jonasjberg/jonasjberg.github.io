@@ -3,7 +3,7 @@
      // https://disqus.com/admin/universalcode/#configuration-variables*/
      // https://jonasjberg.disqus.com/admin/install/platforms/universalcode
      var disqus_config = function () {
-     this.page.url = "http://{{ site.site }}{{ page.url }}";
+     this.page.url = "{{ site.url }}{{ page.url }}";
      this.page.identifier = "{{ site.site }}{{ page.url }}";
      };
     (function() { // DON'T EDIT BELOW THIS LINE
