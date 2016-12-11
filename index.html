@@ -10,12 +10,22 @@ layout: default
             <em>{{ site.author.fullname }}</em>
         </h1>
 
-        <aside class="author-photo">
+        <div class="author-photo">
             {% if site.author.photo.src and site.author.photo.alt %}
                 <img src="{{ site.author.photo.src }}"
                      alt="{{ site.author.photo.alt }}">
             {% endif %}
-        </aside>
+        </div>
+
+        <div class="about-short">
+            <p>I am a .. </p>
+            <ul>
+                <li><strong>Software developer</strong> with
+                    <a href="http://www.paulgraham.com/gba.html"
+                       target="_blank">hackerdom </a> aspirations</li>
+                <li><strong>Electronics Engineer</strong> with experience and skill</li>
+            </ul>
+        </div>
 
         <article class="about-content">
             <h2 id="present">Present</h2>
