@@ -4,38 +4,59 @@ layout: default
 
 <div class="home">
     <div class="about">
-
         <h1 class="page-heading">
-            <a href="{{ site.url }}">jonasjberg</a> is the website of
-            <em>{{ site.author.fullname }}</em>
+            <a href="{{ site.url }}">jonasjberg</a>
+            <em>&mdash; {{ site.author.fullname }}</em>
         </h1>
 
-        <aside class="author-photo">
+        <div class="author-photo unimplemented">
             {% if site.author.photo.src and site.author.photo.alt %}
                 <img src="{{ site.author.photo.src }}"
                      alt="{{ site.author.photo.alt }}">
             {% endif %}
-        </aside>
+        </div>
+
+        <div class="about-short">
+            <ul>
+                <li>
+                    <strong>Software developer</strong> with
+                    <a href="http://www.paulgraham.com/gba.html"
+                       target="_blank">hackerdom </a>
+                    <a href="http://www.catb.org/esr/writings/homesteading/hacker-history/"
+                       target="_blank">aspirations</a>.
+                </li>
+                <li>
+                    <strong>Electronics Engineer</strong> with
+                    <a href="{{ site.baseurl }}/projects/#electronics">experience</a>
+                    and skill.
+                </li>
+
+                <li>Open source and <strong>free software advocate</strong>.</li>
+            </ul>
+        </div>
 
         <article class="about-content">
             <h2 id="present">Present</h2>
-            <p>I am currently studying
+            <p>Currently studying
                <a href="http://udm-devops.se">Software Development and Operations</a>
                at <a href="https://lnu.se/en/">Linnaeus University</a> full-time.</p>
-            <p>I am also employed as a <em>fixare</em> at
+            <p>Employed as a <em>fixare</em> at
                <a href="https://hemfixare.se/">Hemfixare</a>, a startup that
                 provides technical support to households.</p>
 
             <h2 id="past">Past</h2>
-            <p>I have some background in electronics engineering &mdash; I've been
+            <p>I have a background in electronics engineering &mdash; I've been
                a hobbyist on and off since I was a little kid. I also have some
-               formal education and <em>a lot</em> of practical experience in
-               analog circuit design.
+               formal education and <strong>a lot</strong> of practical
+               experience with analog circuit design, PCB-design, front panel
+               layout &mdash; a <strong>variety of skills</strong> required
+               to be able to get
+               <strong>from simple ideas to a finished product</strong>.
             </p>
-            <p>When I was about <code>0x0A</code> years old, I installed games
-               that I had created on the class computer in school for everyone
-               to play. I have been interested in various kinds of programming
-               for as long as I can remember.</p>
+            <p>I have been interested in various kinds of programming
+               for as long as I can remember. When I was about <code>0x0A</code>
+               years old, I installed games that I had created on the class
+               computer in school for everyone to play. </p>
 
             <h2 id="future">Future</h2>
             <p>I would like to work with <strong>software development</strong> or
