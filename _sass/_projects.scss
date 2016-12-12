@@ -5,7 +5,7 @@
     .project-tags {
         list-style: none;
         padding-right: 0.25em;
-        line-height: $base-line-height * 1.125;
+        line-height: ($base-line-height * 1.125);
         vertical-align: baseline;
         margin-left: 0;
     }

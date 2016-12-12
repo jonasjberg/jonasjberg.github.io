@@ -142,7 +142,7 @@
 
 .footer-heading {
     font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: ($spacing-unit / 2);
     font-family: $alt-font-family;
 }
 
@@ -155,14 +155,14 @@
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;
-    margin-left: -$spacing-unit / 2;
+    margin-left: (-$spacing-unit / 2);
     @extend %clearfix;
 }
 
 .footer-col {
     float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    margin-bottom: ($spacing-unit / 2);
+    padding-left: ($spacing-unit / 2);
 }
 
 .footer-col-1 {
@@ -299,7 +299,7 @@
         font-size: $h2-font-size;
 
         @include media-query($on-laptop) {
-            font-size: $h2-font-size * 0.75;
+            font-size: ($h2-font-size * 0.75);
         }
     }
 
@@ -307,7 +307,7 @@
         font-size: $h3-font-size;
 
         @include media-query($on-laptop) {
-            font-size: $h3-font-size * 0.75;
+            font-size: ($h3-font-size * 0.75);
         }
     }
 
@@ -315,7 +315,7 @@
         font-size: $h4-font-size;
 
         @include media-query($on-laptop) {
-            font-size: $h4-font-size * 0.75;
+            font-size: ($h4-font-size * 0.75);
         }
     }
 }

@@ -21,7 +21,7 @@
 
     .post-tags {
         padding-right: 0.25em;
-        line-height: $base-line-height * 1.125;
+        line-height: ($base-line-height * 1.125);
         vertical-align: baseline;
     }
 
@@ -93,7 +93,7 @@
     line-height: 1;
 
     @include media-query($on-laptop) {
-        font-size: $font-size-insane * 0.75;
+        font-size: ($font-size-insane * 0.75);
     }
 }
 
