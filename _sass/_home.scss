@@ -41,11 +41,13 @@
 }
 
 .about-short {
+    .about-short-list {
+        margin-left: 0;
+    }
     li {
         list-style: none;
         margin-top: 0.5em;
         margin-bottom: 0.5em;
-        white-space: nowrap;
     }
 
     text-align: center;
