@@ -244,6 +244,31 @@
  * Page content
  */
 .page-content {
+    /*margin-bottom: $spacing-unit;*/
+
+    h2 {
+        font-size: $h2-font-size;
+
+        @include media-query($on-laptop) {
+            font-size: ($h2-font-size * 0.75);
+        }
+    }
+
+    h3 {
+        font-size: $h3-font-size;
+
+        @include media-query($on-laptop) {
+            font-size: ($h3-font-size * 0.75);
+        }
+    }
+
+    h4 {
+        font-size: $h4-font-size;
+
+        @include media-query($on-laptop) {
+            font-size: ($h4-font-size * 0.75);
+        }
+    }
 }
 
 .page-heading {
@@ -285,33 +310,6 @@
 
     @include media-query($on-laptop) {
         font-size: $font-size-hugest;
-    }
-}
-
-.page-content {
-
-    h2 {
-        font-size: $h2-font-size;
-
-        @include media-query($on-laptop) {
-            font-size: ($h2-font-size * 0.75);
-        }
-    }
-
-    h3 {
-        font-size: $h3-font-size;
-
-        @include media-query($on-laptop) {
-            font-size: ($h3-font-size * 0.75);
-        }
-    }
-
-    h4 {
-        font-size: $h4-font-size;
-
-        @include media-query($on-laptop) {
-            font-size: ($h4-font-size * 0.75);
-        }
     }
 }
 
