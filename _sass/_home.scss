@@ -1,5 +1,6 @@
 .home-heading {
-    font-size: $font-size-insane;
+    font-size: ($font-size-insane * 1.25);
+    margin-top: $font-size-insane;
     line-height: 1;
 
     .heading-word {

@@ -162,7 +162,7 @@ pre {
 
 .site-section {
     @extend %clearfix;
-    padding-top: $h1-font-size;
+    padding-top: $font-size-insane;
 
     h1 {
         font-size: $font-size-insane;
