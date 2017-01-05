@@ -15,18 +15,18 @@ $mono-font-family: "Ubuntu Mono", "Liberation Mono", Monospaced, Monospace;
 $menu-font-family: $alt-font-family;
 
 $font-size-base:          16px;
-$font-size-smaller:       $font-size-base * 0.825;
-$font-size-small:         $font-size-base * 0.875;
-$font-size-medium:        $font-size-base * 1.125;      // 18
-$font-size-big:           $font-size-base * 1.25;       // 20
-$font-size-bigger:        $font-size-base * 1.625;      // 26
-$font-size-biggest:       $font-size-base * 1.75;       // 28
-$font-size-huge:          $font-size-base * 2;          // 32
-$font-size-hugest:        $font-size-base * 2.25;       // 36
-$font-size-insane:        $font-size-base * 2.625;      // 42
+$font-size-smaller:       ($font-size-base * 0.825);
+$font-size-small:         ($font-size-base * 0.875);
+$font-size-medium:        ($font-size-base * 1.125);    // 18
+$font-size-big:           ($font-size-base * 1.25);     // 20
+$font-size-bigger:        ($font-size-base * 1.625);    // 26
+$font-size-biggest:       ($font-size-base * 1.75);     // 28
+$font-size-huge:          ($font-size-base * 2);        // 32
+$font-size-hugest:        ($font-size-base * 2.25);     // 36
+$font-size-insane:        ($font-size-base * 2.625);    // 42
 
 $font-size-code:          $font-size-base;
-$font-size-menu:          $font-size-base * 1.6;
+$font-size-menu:          ($font-size-base * 1.6);
 
 $base-line-height:        1.6;
 

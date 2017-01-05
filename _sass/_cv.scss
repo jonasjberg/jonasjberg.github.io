@@ -1,4 +1,9 @@
 .cv {
+
+    h1 { font-size: $font-size-hugest; }
+    h2 { font-size: $font-size-huge; }
+    h3 { font-size: $font-size-huge; }
+
     ._cv_description {
         font-size: $font-size-small;
         color: $grey-color-dark;
@@ -19,12 +24,16 @@
     h3 {
         /*display: inline-block;
         max-width: 50%;*/
-        padding: 0;
-        margin: 0;
         border-bottom-style: solid;
         border-bottom-width: 0.025em;
         border-bottom-color: $grey-color;
     }
+}
+
+.cv_heading {
+    font-size: ($font-size-insane * 1.25);
+    margin-top: $font-size-insane;
+    line-height: 1;
 }
 
 ._cv_course {
