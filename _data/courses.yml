@@ -131,3 +131,38 @@
     start: '2016-09-29'
     end: '2016-10-27'
   hidden:
+
+- code: '1DV506'
+  name: 'Problem Solving and Programming'
+  institution: 'Linnaeus University'
+  topic: 'Computer Science'
+  url: 'http://kursplan.lnu.se/kursplaner/kursplan-1DV506-1.pdf'
+  desc: 'Data structures and general problem solving.'
+  date:
+    start: '2016-10-31'
+    end: '2017-02-16'
+  hidden:
+
+- code: '1DV507'
+  name: 'Programming and Data Structures'
+  institution: 'Linnaeus University'
+  topic: 'Computer Science'
+  url: 'http://kursplan.lnu.se/kursplaner/kursplan-1DV507-1.pdf'
+  desc: 'Algorithms and data structures.'
+  date:
+    start: '2017-01-16'
+    end: '2017-04-06'
+  hidden:
+
+- code: '1DV430'
+  name: 'Individual Software Development Project'
+  institution: 'Linnaeus University'
+  topic: 'Computer Science'
+  url: 'http://coursepress.lnu.se/kurs/individuellt-mjukvaruutvecklingsprojekt/'
+  desc: 'Independent development a software project. I worked on "autonameow",
+         the automagic file renamer. Now located here:
+         https://github.com/jonasjberg/autonameow'
+  date:
+    start: '2017-03-20'
+    end: '2017-06-02'
+  hidden:
