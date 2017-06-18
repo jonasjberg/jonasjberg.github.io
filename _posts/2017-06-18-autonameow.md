@@ -24,6 +24,15 @@ course (with very good results) and development has continued since.
 The project has since been made public and is available [here][autonameowgithub]
 
 
+This post contains some of the documents produced during the course.
+
+__Note that this post describes `autonameow` version `v0.4.0` and does
+not reflect the current state of the project.__
+
+
+--------------------------------------------------------------------------------
+
+
 Project Plan
 ============
 This is the project plan for the `autonameow` project.
