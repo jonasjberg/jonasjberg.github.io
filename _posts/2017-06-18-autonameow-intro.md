@@ -2,7 +2,7 @@
 layout: post
 title:  "The autonameow Project"
 date:   2017-06-18 21:54:48
-tags:   [autonameow, projects development, workflow, python, pim]
+tags:   [autonameow, projects, development, workflow, python, pim]
 disqus: true
 image: "" 
 ---
