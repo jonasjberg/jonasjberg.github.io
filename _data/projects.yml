@@ -17,15 +17,17 @@
 
 - code: 'autonameow'
   name: 'autonameow'
-  desc: 'Description of project goes here.. '
-  url:
+  desc: 'autonameow does automatic renaming of files. The primary goal is to
+         reduce the overhead and manual work required to apply a strict file
+         naming convention uniformly and consistently.'
+  url: https://github.com/jonasjberg/autonameow
   tags:
     - development
     - python
     - software
   date:
     start: 2016
-    end: 2016
+    end: 2017
   photos:
     - ''
   hidden:
