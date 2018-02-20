@@ -7,7 +7,8 @@ permalink: /projects/
 <div class="projects">
 
     <h1 class="page-heading">Projects</h1>
-    <p><em>Please note that this page still is a work in progress.</em></p>
+    <p><em>Subset of my personal projects. Please note that this page still is a work in progress.</em></p>
+
 
     {% for project in site.data.projects %}
         {% if project.hidden %}
@@ -33,6 +34,11 @@ permalink: /projects/
 
         <h3>Description</h3>
         <p class="_project_description">{{ project.desc }}</p>
+        <br>
+
+        {% if project.url %}
+        <p class="_project_description">See the <a href="{{ project.url }}">project website</a> for more information.</p>
+        {% endif %}
         </div>
     {% endfor %}
 </div>

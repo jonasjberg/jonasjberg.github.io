@@ -1,6 +1,9 @@
 - code: 'pllmnstr'
   name: 'PLL-monstret'
-  desc: 'Description of project goes here.. '
+  desc: 'Discrete guitar octaver/harmonizer synthesizer with Phase-locked Loop
+         VCOs, analog waveshapers, amplitude modulation, ring modulation and
+         more. All analog signal path and synthesizer core, controlled by a PIC
+         microcontroller.'
   url:
   tags:
     - electronics
