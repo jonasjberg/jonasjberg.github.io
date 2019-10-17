@@ -21,7 +21,7 @@ author:
         src: "img/jonas.jpg"
         alt: "Photograph #nofilter #notmodified"
 
-url: http://www.jonasjberg.com
+url: https://www.jonasjberg.com
 baseurl: ""         # the subpath of your site, e.g. /blog/
 site: jonasjberg.com
 
