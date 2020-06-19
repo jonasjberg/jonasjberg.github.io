@@ -1,15 +1,31 @@
-- name: 'Consultant'
-  desc: 'Software Developer ("Systemutvecklare") at Prevas Gävle AB.
+- name: 'Vattenfall IT'
+  desc: 'Primarily working with development practices and system administration
+         workflows. Responsible for version control systems, automated testing,
+         CI/CD. Part of core team that designs and implements configuration
+         management codebases and miscellaneous automation systems.'
+  role: 'Infrastructure Architect'
+  tags:
+    - automation
+    - devops
+    - hardware
+    - infrastructure
+    - software
+  date:
+    start: 2020
+  hidden:
+
+- name: 'Prevas'
+  desc: 'Software Developer and system administrator at Prevas Gävle AB.
          Specializing in Linux/UNIX, Shell, Bash, Python, automated testing,
-         system administration and security. Currently working with critical
-         infrastructure and high-security systems.'
-  role: 'Software Developer, System Administrator, Development and Operations'
+         system administration and security.'
+  role: 'IT Consultant'
   tags:
     - consultant
     - software
     - security
   date:
     start: 2018
+    start: 2020
   hidden:
 
 - name: 'Engineering consultant'

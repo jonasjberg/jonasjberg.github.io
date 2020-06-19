@@ -7,10 +7,28 @@ permalink: /cv/
 <div class="cv">
 
     <h1 class="page-heading cv_heading">Curriculum vitae</h1>
-    <p><em>Please note that this page is a work in progress.</em></p>
 
     <p class="unimplemented">TODO: Import CV from LaTeX source .. </p>
 
+
+    <h1>Work experience</h1>
+
+    {% for job in site.data.jobs %}
+    {% if job.hidden %}
+    {% continue %}
+    {% endif %}
+
+    <div class="_cv_job">
+        <h3>{{ job.name }}</h3>
+        <span class="_cv_role">{{ job.role }}</span>
+        <span class="_cv_date">{{ job.date.start }} &mdash;
+            {{ job.date.end }}</span>
+
+        <p class="_cv_description">{{ job.desc }}</p>
+    </div>
+    {% endfor %}
+
+    {% if False %}
     <h1>Current education</h1>
     <h2>Current</h2>
     <p>I am currently studying a three year university programme in computer
@@ -63,23 +81,5 @@ permalink: /cv/
         <p class="_cv_description">{{ course.desc }}</p>
     </div>
     {% endfor %}
-
-
-    <h1>Work experience</h1>
-
-    {% for job in site.data.jobs %}
-    {% if job.hidden %}
-    {% continue %}
     {% endif %}
-
-    <div class="_cv_job">
-        <h3>{{ job.name }}</h3>
-        <span class="_cv_role">{{ job.role }}</span>
-        <span class="_cv_date">{{ job.date.start }} &mdash;
-            {{ job.date.end }}</span>
-
-        <p class="_cv_description">{{ job.desc }}</p>
-    </div>
-    {% endfor %}
-
 </div>
