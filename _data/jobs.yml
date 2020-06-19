@@ -25,7 +25,7 @@
     - security
   date:
     start: 2018
-    start: 2020
+    end: 2020
   hidden:
 
 - name: 'Engineering consultant'
