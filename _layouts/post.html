@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<div class="post">
+
+    <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+
+        <div class="post-meta">
+            <div class="post-date">
+                Posted <span class="hl">{{ page.date | date: "%A %F" }}</span>
+            </div>
+
+            <div class="post-author">
+                {% if page.author %}
+                    by <span class="hl">{{ page.author }}</span>
+                {% elsif site.author.fullname %}
+                    by <span class="hl">{{ site.author.fullname }}</span>
+                {% endif %}
+            </div>
+
+            <div class="post-tags">
+                Tagged
+                <span class="entry-tags">
+                  {% for tag in page.tags %}
+                      <i class="fa fa-tag" aria-hidden="true"></i>
+                      <a href="{{ site.baseurl }}/blog/#{{ tag | cgi_escape }}"
+                         title="Posts tagged {{ tag }}" rel="tag">{{ tag }}</a>
+                  {% endfor %}
+              </span>
+            </div>
+        </div>
+    </header>
+
+    <article class="post-content">
+        {{ content }}
+    </article>
+
+    {% if page.disqus %}
+        <div class="post-comments">
+            {% include disqus.html %}
+        </div>
+    {% endif %}
+
+</div>

@@ -1,0 +1,52 @@
+<meta property="og:type" content="article" />
+
+{% if page.title %}
+    <meta content="{{ page.title }}" property="og:title">
+    <meta name="twitter:title" content="{{ page.title }}" />
+{% else %}
+    <meta content="{{ site.title }}" property="og:title">
+    <meta name="twitter:title" content="{{ site.title }}" />
+{% endif %}
+
+{% if page.excerpt %}
+    <meta content="{{ page.excerpt | strip_html | strip_newlines }}" property="og:description">
+{% elsif page.description %}
+    <meta content="{{ page.description | markdownify | strip_html | strip_newlines }}" property="og:description">
+{% elsif site.description %}
+    <meta content="{{ site.description | markdownify | strip_html | strip_newlines }}" property="og:description">
+{% endif %}
+
+{% if page.date %}
+    <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+    <meta content="{{ site.url }}/about/" property="article:author">
+{% endif %}
+
+<meta property="og:site_name" content="{{ site.title }}" />
+<meta property="og:url" content="{{site.github.url }}{{ page.url }}" />
+{% if page.image %}
+    <meta property="og:image" content="{{site.github.url }}{{ page.image }}" />
+{% endif %}
+
+{% if page.tags %}
+    <meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
+{% endif %}
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="{{ site.author.twitter }}" />
+<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+
+
+{% if page.ogimagenull %}
+    <!-- no og image -->
+{% elsif page.ogimage %}
+    <meta property="og:image" content="{{ page.ogimage }}" />
+    <meta name="twitter:image" content="{{ page.ogimage }}" />
+    <meta property="og:image:width" content="600" />
+    <meta property="og:image:height" content="315" />
+{% elsif page.image %}
+    <meta property="og:image" content="{{ page.image }}" />
+    <meta name="twitter:image" content="{{ page.image }}" />
+{% else %}
+    <meta property="og:image" content="{{ site.defaultimage }}" />
+    <meta name="twitter:image" content="{{ site.defaultimage }}" />
+{% endif %}

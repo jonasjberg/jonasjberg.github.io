@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {% include head.html %}
+    {% include opengraph.html %}
+    {% include twittercard.html %}
+</head>
+
+{% if page.disqus %}
+    <script id="dsq-count-scr"
+            src="//joshuacoxgithubio.disqus.com/count.js" async></script>
+{% endif %}
+
+<body>
+    {% include header.html %}
+
+    <div class="page-content">
+        <div class="wrapper">
+            {{ content }}
+        </div>
+    </div>
+
+    {% include footer.html %}
+</body>
+
+</html>

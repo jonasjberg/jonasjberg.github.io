@@ -1,0 +1,43 @@
+locale: eng-US
+title: jonasjberg
+description: >
+  These are my thoughts on software development,
+  analog circuit design and embedded systems.
+
+  Lack of updates is due to life in general and not being a fan of web stuff in particular.
+
+author:
+    fullname:  Jonas Sjöberg
+    location: Sweden
+    email: jonas@jonasjberg.com
+    twitter: jonasjberg
+    github:  jonasjberg
+    linkedin:
+    google:
+    facebook: jonasjbrg
+    dribbble:
+    instagram: jonasjberg
+    photo:
+        src: "img/jonas.jpg"
+        alt: "Photograph #nofilter #notmodified"
+
+url: https://www.jonasjberg.com
+baseurl: ""         # the subpath of your site, e.g. /blog/
+site: jonasjberg.com
+
+
+defaultimage: "https://avatars0.githubusercontent.com/u/5494704?v=3&s=460"
+
+# markdown: kramdown
+# kramdown:
+#   input: GFM
+
+sass:
+    sass_dir: _sass
+
+
+# "Bind HTTP server to all available IPs, rather than just to localhost.
+#  GitHub will simply ignore this when pushing, so it's safe to use if you
+#  don't mind having your work openly accessible on your network."
+# http://stackoverflow.com/a/16608698
+host: 0.0.0.0

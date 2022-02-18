@@ -1,0 +1,44 @@
+---
+layout: page
+title: projects
+permalink: /projects/
+---
+
+<div class="projects">
+
+    <h1 class="page-heading">Projects</h1>
+    <p><em>Subset of my personal projects. Please note that this page still is a work in progress.</em></p>
+
+
+    {% for project in site.data.projects %}
+        {% if project.hidden %}
+            {% continue %}
+        {% endif %}
+
+        <div class="_project">
+            <!--<h2>{{ project.code }} &mdash; {{ project.name }}</h2>-->
+            <h1>{{ project.name }}</h1>
+
+            <ul class="project-tags">
+                <span class="entry-tags">
+                    {% for tag in project.tags %}
+                    <li>
+                        <i class="fa fa-tag" aria-hidden="true"></i>
+                        <a href="#{{ tag | cgi_escape }}">{{ tag }}</a>
+                    </li>
+                    {% endfor %}
+                </span>
+            </ul>
+
+            <span class="_project-date">{{ project.date.start }} &mdash; {{ project.date.end }}</span>
+
+        <h3>Description</h3>
+        <p class="_project_description">{{ project.desc }}</p>
+        <br>
+
+        {% if project.url %}
+        <p class="_project_description">See the <a href="{{ project.url }}">project website</a> for more information.</p>
+        {% endif %}
+        </div>
+    {% endfor %}
+</div>

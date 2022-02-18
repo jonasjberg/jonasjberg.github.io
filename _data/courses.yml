@@ -1,0 +1,181 @@
+- code: 'DTR1207'
+  name: 'C++ Programming A'
+  institution: 'NTI'
+  topic: 'Computer Science'
+  url: 'http://kursplan.lnu.se/kursplaner/kursplan-1ME321-3.pdf'
+  desc: 'Introductary programming in C++.'
+  date:
+    start: '2011-06-20'
+    end: '2011-07-22'
+  hidden:
+
+- code: 'PROC1408'
+  name: 'C++ Programming B'
+  institution: 'NTI'
+  topic: 'Computer Science'
+  url: 'http://kursplan.lnu.se/kursplaner/kursplan-1ME321-3.pdf'
+  desc: 'Intermediate C++ programming. Software design and implementation from
+         specifications. Object-oriented design principles.'
+  date:
+    start: '2011-07-25'
+    end: '2011-08-26'
+  hidden:
+
+- code: 'IE720A'
+  name: 'Project methodology'
+  institution: 'Högskolan i Gävle'
+  topic: 'Industrial Economy and organization'
+  url: 'http://utb.hig.se/fafne/app/public/pdf/jasper/course.pdf?identifier=IE720A'
+  desc: 'Research, information processing. Group projects. Quality, time and
+         cost in collaborative projects.'
+  date:
+    start: ''
+    end: '2013-11-13'
+  hidden:
+
+- code: 'DV009A'
+  name: 'Computers and Software Engineering'
+  institution: 'Högskolan i Gävle'
+  topic: 'Computer Science'
+  url: 'http://www.hig.se/4.12fae2dd1280959bf1c80002450.html?identifier=DVG009'
+  desc: 'General computer science and software engineering overview. Designed
+         and built a robot control system with client software written in Java,
+         hardware platform with an embedded system running on C++ interfaces
+         to the robot. All hardware and software designed from scratch.'
+  date:
+    start: ''
+    end: '2014-01-16'
+  hidden:
+
+- code: 'EEG002'
+  name: 'Logic systems'
+  institution: 'Högskolan i Gävle'
+  topic: 'Electronics'
+  url: 'http://utb.hig.se/fafne/app/public/pdf/jasper/course.pdf?identifier=EEG002'
+  desc: 'Digital logic circuit design, simulation and prototyping/construction.'
+  date:
+    start: ''
+    end: '2014-02-05'
+  hidden:
+
+- code: 'DV017A'
+  name: 'Basic Programming in Java'
+  institution: 'Högskolan i Gävle'
+  topic: 'Computer Science'
+  url: 'http://www.hig.se/Ext/En/University-of-Gavle/Education/Courses/Course-description.html?identifier=DV017A'
+  desc: 'Programming and problem solving using Java.'
+  date:
+    start: ''
+    end: '2015-08-21'
+  hidden:
+
+- code: 'DVG001'
+  name: 'Introduction to Linux and Small Networks'
+  institution: 'Högskolan i Gävle'
+  topic: 'Computer Science'
+  url: 'http://www.hig.se/Ext/En/University-of-Gavle/Education/Courses/Course-description.html?identifier=DVG001'
+  desc: 'Network administration; setup, configuration and maintenance of a
+         Linux server virtual machine. The server was online and allowed for
+         remote SSH connections by the course administration.
+         Focus on security and low level networking.'
+  date:
+    start: '2016-01-22'
+    end: '2016-06-15'
+  hidden:
+
+- code: 'EE466A'
+  name: 'Electric Circuits'
+  institution: 'Högskolan i Gävle'
+  topic: 'Electronics'
+  url: 'http://www.hig.se/Ext/En/University-of-Gavle/Education/Courses/Course-description.html?identifier=EE466A'
+  desc: 'Linear network analysis. Circuit analysis, theory and design.'
+  date:
+    start: ''
+    end: '2016-01-18'
+  hidden:
+
+- code: 'ETE311'
+  name: 'Computer Security'
+  institution: 'Linköpings Universitet'
+  topic: 'Electrical Engineering'
+  url: 'https://liu.se/utbildning/kurs/ETE311/'
+  desc: 'Security analysis, identification and classification of threats and
+         vulnerabilities. Cryptography, network security, access control.'
+  date:
+    start: ''
+    end: '2016-06-12'
+  hidden:
+
+- code: '1DV021'
+  name: 'Introduction to Programming'
+  institution: 'Linnaeus University'
+  topic: 'Computer Science'
+  url: 'http://kursplan.lnu.se/kursplaner/kursplan-1DV021-1.pdf'
+  desc: 'Introductory course in modern programming using JavaScript. Focus
+         on practical skills and use of IDEs and related tools/frameworks such
+         as test runners, version control, third party modules, etc.'
+  date:
+    start: '2016-09-29'
+    end: '2016-10-27'
+  hidden:
+
+- code: '1ME321'
+  name: 'Web Technology 1'
+  institution: 'Linnaeus University'
+  topic: 'Computer Science'
+  url: 'http://kursplan.lnu.se/kursplaner/kursplan-1ME321-3.pdf'
+  desc: 'Design and product development for the modern web using CSS3 and
+         HTML5. Emphasis on processes and methodologies for development,
+         responsive design and accessibility usability'
+  date:
+    start: '2016-09-29'
+    end: '2016-10-27'
+  hidden:
+
+- code: '1DV506'
+  name: 'Problem Solving and Programming'
+  institution: 'Linnaeus University'
+  topic: 'Computer Science'
+  url: 'http://kursplan.lnu.se/kursplaner/kursplan-1DV506-1.pdf'
+  desc: 'Data structures and general problem solving.'
+  date:
+    start: '2016-10-31'
+    end: '2017-02-16'
+  hidden:
+
+- code: '1DV507'
+  name: 'Programming and Data Structures'
+  institution: 'Linnaeus University'
+  topic: 'Computer Science'
+  url: 'http://kursplan.lnu.se/kursplaner/kursplan-1DV507-1.pdf'
+  desc: 'Algorithms and data structures.'
+  date:
+    start: '2017-01-16'
+    end: '2017-04-06'
+  hidden:
+
+- code: '1DV430'
+  name: 'Individual Software Development Project'
+  institution: 'Linnaeus University'
+  topic: 'Computer Science'
+  url: 'http://coursepress.lnu.se/kurs/individuellt-mjukvaruutvecklingsprojekt/'
+  desc: 'Independent development a software project. I worked on "autonameow",
+         the automagic file renamer. Now located here:
+         https://github.com/jonasjberg/autonameow'
+  date:
+    start: '2017-03-20'
+    end: '2017-06-02'
+  hidden:
+
+- code: '1DV607'
+  name: 'Object Oriented Analysis and Design using UML'
+  institution: 'Linnaeus University'
+  topic: 'Computer Science'
+  url: 'https://coursepress.lnu.se/kurs/objektorienterad-analys-och-design-med-uml/'
+  desc: 'OOP design patterns and modeling techniques.
+         Applications implemented in Java and Python are available at
+         https://github.com/jonasjberg/1dv607_workshops'
+  date:
+    start: '2017-08-28'
+    end: '2018-01-14'
+  hidden:

@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "Adding user comments"
+date:   2016-11-18 01:33:37
+tags:   [development, devops, web]
+disqus: true
+---
+
+
+This post is part of an assignment in the course
+["1DV022 -- Client-based Web Programming"][1dv022] at Linnaeus
+University in Kalmar.
+
+Adding comments to the website
+==============================
+One part of the assignment is to add the ability for visitors to add comments
+to the website.
+
+disqus
+------
+I've chosen to implement this using [`disqus`][disqus], which is a service that
+provides add-ons for websites such as comment sections and advertisements.
+A full rundown of their features is available [here][disqus-features].
+
+In order to add functionality provided by `disqus` you need to register for an
+account at their website. The add-ons are then added as JavaScript, that is
+modified to include configuration variables matching the target website, such
+as the site URL and an unique identifier.
+
+In order to modify any settings and moderate comments you need to login to the
+`disqus` website using your credentials and from there all kinds of settings
+and interaction is presented through a easy to use web GUI.
+
+
+Jekyll integration
+------------------
+I wanted to be able to control whether to include the comment field for each
+individual post and page. Thanks to the "programmable" templating functionality
+_liquid_ that Jekyll provides, this was easily done by simply adding a
+key/value-pair to the posts YAML front matter.  Thus `disqus: true` enables
+user comments for a post.
+
+The `disqus` code is also kept in a separate file and is inserted based on
+whether the variable is set.
+
+
+
+[1dv022]: https://coursepress.lnu.se/kurs/klientbaserad-webbprogrammering/
+[disqus]: https://disqus.com/
+[disqus-features]: https://disqus.com/features/

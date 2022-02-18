@@ -1,0 +1,50 @@
+<footer class="site-footer">
+    <div class="wrapper">
+
+        <h2 class="footer-heading">{{ site.title }}</h2>
+
+        <div class="footer-col-wrapper">
+            <div class="footer-col footer-col-1">
+                <ul class="contact-list">
+                    {% if site.author.fullname %}
+                        <li>&copy; {{ site.time | date: '%Y' }} {{ site.author.fullname }}</li>
+                    {% endif %}
+
+                    {% if site.author.location %}
+                        <li>Made in {{ site.author.location }}</li>
+                    {% endif %}
+
+                    {% if site.author.email %}
+                        <li>
+                            <a href="mailto:{{ site.author.email }}" class="icon">
+                                <i class="fa fa-envelope"></i>
+                                {{ site.author.email }}
+                            </a>
+                        </li>
+                    {% endif %}
+
+                    <li>
+                        <div id="rss-feed">
+                            <p class="rss-subscribe">Follow the blog
+                                <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>.</p>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="footer-col footer-col-2">
+                {% include social-icons.html %}
+            </div>
+
+            <div class="footer-col footer-col-3">
+                <p class="text">{{ site.description }}</p>
+            </div>
+
+            <div class="footer-col footer-license">
+                {% include license.html %}
+            </div>
+        </div>
+
+    </div>
+</footer>

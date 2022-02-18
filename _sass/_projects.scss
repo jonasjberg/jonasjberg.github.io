@@ -1,0 +1,32 @@
+._project {
+    margin-bottom: $spacing-unit * 2;
+
+
+    .project-tags {
+        list-style: none;
+        padding-right: 0.25em;
+        line-height: ($base-line-height * 1.125);
+        vertical-align: baseline;
+        margin-left: 0;
+    }
+
+    .entry-tags {
+        margin-left: 0.2em;
+        font-size: $font-size-base;
+        vertical-align: baseline;
+        text-transform: lowercase;
+
+        li {
+            display: inline-block;
+            white-space: nowrap;
+        }
+
+        a {
+            margin-right: 0.2em;
+        }
+
+        .fa-tag {
+            color: $grey-color-dark;
+        }
+    }
+}
